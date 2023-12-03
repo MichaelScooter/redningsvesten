@@ -27,3 +27,16 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	content: url("../images/logo.png");
 	max-height: 60px;
 }
+
+.heroImage{
+	background-image: url("../images/dame.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+
+}
+
+
+.heroOverlay{
+	background-blend-mode:overlay;
+	background-color: rgba(0, 0, 0, 0.6) !important;
+}

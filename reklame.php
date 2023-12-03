@@ -12,7 +12,7 @@
 <body>
 <?php include "include/navigation.php"; ?>
 
-<div class="container-fluid bg-dark p-lg-5 vh-100">
+<div class="container-fluid bg-danger p-lg-5 vh-100">
     <div class="row text-white pt-lg-5">
         gfgfg
     </div>
