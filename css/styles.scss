@@ -10,11 +10,11 @@ $link-decoration: none;
 
 // 4. Include any default map overrides here
 $custom-colors: (
-				"primary": #83BA26,
-				"secondary":#4D8D2F,
-				"farve3": #F9f9f9,
-				"farve4": #121212,
-				"farve5": #00802e,
+				"primary": #624973,
+				"secondary":#B099BF,
+				"farve3": #E5D0F2,
+				"farve4": #EADCF2,
+				"farve5": #101010,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -25,18 +25,19 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 #logo{
 	content: url("../images/logo_redningsvest.png");
-	max-height: 75px;
+	max-height: 80px;
 }
 
-.heroImage{
-	background-image: url("../images/dame.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-
+.websiteIcon{
+	max-width: 75px;
 }
 
-
-.heroOverlay{
-	background-blend-mode:overlay;
-	background-color: rgba(0, 0, 0, 0.6) !important;
+.googlebutton{
+	max-width: 90px;
 }
+
+/* Light */
+.px-lg-4 .col-auto .bg-light{
+	margin-bottom:0px;
+}
+

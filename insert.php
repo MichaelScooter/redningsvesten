@@ -26,7 +26,7 @@ if (!empty($_POST["data"])) {
         ":vejrRegn" => $data["vejrRegn"],
     ];
 
-    if (!empty($data["vejrBy"]) && !empty($data["vejrUgeNr"]) && !empty($data["vejrUgeDag"]) && !empty($data["vejrBeskrivelse"]) && !empty($data["vejrTemp"]) && !empty($data["vejrMinTemp"]) && !empty($data["vejrMaxTemp"]) && !empty($data["vejrUx"]) && !empty($data["vejrBilled"])&& !empty($data["vejrRegn"])) {
+    if (!empty($data["vejrBy"]) && !empty($data["vejrUgeNr"]) && !empty($data["vejrUgeDag"]) && !empty($data["vejrBeskrivelse"]) && !empty($data["vejrTemp"]) && !empty($data["vejrMinTemp"]) && !empty($data["vejrMaxTemp"]) && !empty($data["vejrUx"]) && !empty($data["vejrRegn"])) {
         $db->sql($sql, $bind, false);
 
         $statusMsg = "<h3 class='text-success pt-3 ps-3'>Vejr dagen blev oprettet korrekt.</h3><a href='insert.php' class='text-white ps-3'><span class='text-decoration-none'>Opret en ny vejr dag:</span></a>";
@@ -41,24 +41,12 @@ if (!empty($_POST["data"])) {
 <!DOCTYPE html>
 <html lang="da">
 <head>
-    <meta charset="utf-8">
 
     <title>Opret vejr dag</title>
     <meta name="description" content="Opret vejr dag">
-
-    <meta name="robots" content="All">
-    <meta name="author" content="Udgiver">
-    <meta name="copyright" content="Information om copyright">
-
-
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <script src="https://cdn.tiny.cloud/1/071g1xh1hwccgkhfewg0rdoqybb95uwgaiyhpb7xt8dyxzce/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
 
-
-
+    <?php include "include/head.php"; ?>
 </head>
 
 <body>
@@ -115,7 +103,7 @@ if (!empty($_POST["data"])) {
                         <div class="col-12 col-md-6 pt-3">
                             <div class="form-group">
                                 <label for="vejrMaxTemp" class="fw-semibold">vejrMaxTemp</label>
-                                <input class="form-control" type="number" name="data[kodeRabatInput]" id="kodeRabatInput" placeholder="vejrMaxTemp" value="">
+                                <input class="form-control" type="number" name="data[ejrMaxTemp]" id="ejrMaxTemp" placeholder="vejrMaxTemp" value="">
                             </div>
                         </div>
                         <div class="col-12 col-md-6 pt-3">

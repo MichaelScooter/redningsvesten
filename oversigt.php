@@ -13,7 +13,7 @@
 <?php include "include/navigation.php"; ?>
 
 
-<div class="container-fluid p-5 min-vh-100 heroImage">
+<div class="container-fluid p-5">
         <div class="pb-5 pb-lg-0 px-lg-5">
             <div class="vejrtabel pb-5 p-md-5">
                 <div class="filter pt-3 py-lg-5">
