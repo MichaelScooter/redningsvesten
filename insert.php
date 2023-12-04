@@ -50,7 +50,7 @@ if (!empty($_POST["data"])) {
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -109,7 +109,7 @@ if (!empty($_POST["data"])) {
                         <div class="col-12 col-md-6 pt-3">
                             <div class="form-group">
                                 <label for="vejrMinTemp" class="fw-semibold">vejrMinTemp</label>
-                                <input class="form-control" type="number" name="data[vejrMinTemp]" id="vejrMinTemp" placeholder="vejrMinTemp="">
+                                <input class="form-control" type="number" name="data[vejrMinTemp]" id="vejrMinTemp" placeholder="vejrMinTemp">
                             </div>
                         </div>
                         <div class="col-12 col-md-6 pt-3">
