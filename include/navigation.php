@@ -1,5 +1,5 @@
 <!-- Navbar - Start -->
-<nav class="navbar navbar-expand-lg fixed-top shadow px-2 px-lg-0">
+<nav class="navbar navbar-expand-lg fixed-top shadow px-2 px-lg-0 bg-white">
     <div class="container-fluid px-lg-5">
 
         <a class="navbar-brand" href="index.php" id="logo">Digital Redningsvest</a>

@@ -29,15 +29,15 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 
 .websiteIcon{
-	max-width: 75px;
+	max-width: 80px;
 }
 
 .googlebutton{
 	max-width: 90px;
 }
 
-/* Light */
-.px-lg-4 .col-auto .bg-light{
-	margin-bottom:0px;
+.websiteIconBoks p{
+	font-size: 14px;
 }
+
 
