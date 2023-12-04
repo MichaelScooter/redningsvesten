@@ -11,7 +11,7 @@ if (!empty($_POST["data"])) {
 
 
 
-    $sql = "INSERT INTO kode (vejrBy, vejrUgeNr, vejrUgeDag, vejrBeskrivelse, vejrTemp, vejrMinTemp, vejrMaxTemp, vejrUx, vejrBilled, vejrRegn) 
+    $sql = "INSERT INTO vejr (vejrBy, vejrUgeNr, vejrUgeDag, vejrBeskrivelse, vejrTemp, vejrMinTemp, vejrMaxTemp, vejrUx, vejrBilled, vejrRegn) 
             VALUES (:vejrBy, :vejrUgeNr, :vejrUgeDag, :vejrBeskrivelse, :vejrTemp, :vejrMinTemp, :vejrMaxTemp, :vejrUx, :vejrBilled, :vejrRegn)";
     $bind = [
         ":vejrBy" => $data["vejrBy"],
