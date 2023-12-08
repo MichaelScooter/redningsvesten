@@ -21,7 +21,7 @@
                     <div class="row pt-lg-3">
                        <div class="col-12 col-lg-3 ">
                            <div class="">
-                                <img src="images/dame_stor.png" class="img-fluid">
+                                <img src="images/dame_hero_610_brun.png" class="img-fluid">
                            </div>
                        </div>
 
@@ -55,48 +55,6 @@
                                                                        <p class="text-farve5 bg-light px-1">TV2</p>
                                                                </div>
                                                            </div>
-                                                           <div class="col-auto">
-                                                               <div class="flex-lg-wrap align-items-center justify-content-center ">
-                                                                   <img src="images/instagram.jpg" class="websiteIcon border border-1 border-light" alt="Alternativ tekst">
-                                                                   <p class="text-farve5 bg-light px-1">TV2</p>
-                                                                   <p class="text-farve5 bg-light px-1">TV2</p>
-                                                               </div>
-                                                           </div>
-                                                           <div class="col-auto">
-                                                               <div class="flex-lg-wrap align-items-center justify-content-center ">
-                                                                   <img src="images/instagram.jpg" class="websiteIcon border border-1 border-light" alt="Alternativ tekst">
-                                                                   <p class="text-farve5 bg-light px-1">TV2</p>
-                                                                   <p class="text-farve5 bg-light px-1">TV2</p>
-                                                               </div>
-                                                           </div>
-                                                           <div class="col-auto">
-                                                               <div class="flex-lg-wrap align-items-center justify-content-center ">
-                                                                   <img src="images/instagram.jpg" class="websiteIcon border border-1 border-light" alt="Alternativ tekst">
-                                                                   <p class="text-farve5 bg-light px-1">TV2</p>
-                                                                   <p class="text-farve5 bg-light px-1">TV2</p>
-                                                               </div>
-                                                           </div>
-                                                           <div class="col-auto">
-                                                               <div class="flex-lg-wrap align-items-center justify-content-center ">
-                                                                   <img src="images/instagram.jpg" class="websiteIcon border border-1 border-light" alt="Alternativ tekst">
-                                                                   <p class="text-farve5 bg-light px-1">TV2</p>
-                                                                   <p class="text-farve5 bg-light px-1">TV2</p>
-                                                               </div>
-                                                           </div>
-                                                           <div class="col-auto">
-                                                               <div class="flex-lg-wrap align-items-center justify-content-center ">
-                                                                   <img src="images/instagram.jpg" class="websiteIcon border border-1 border-light" alt="Alternativ tekst">
-                                                                   <p class="text-farve5 bg-light px-1">TV2</p>
-                                                                   <p class="text-farve5 bg-light px-1">TV2</p>
-                                                               </div>
-                                                           </div>
-                                                           <div class="col-auto">
-                                                               <div class="flex-lg-wrap align-items-center justify-content-center ">
-                                                                   <img src="images/instagram.jpg" class="websiteIcon border border-1 border-light" alt="Alternativ tekst">
-                                                                   <p class="text-farve5 bg-light px-1">TV2</p>
-                                                                   <p class="text-farve5 bg-light px-1">TV2</p>
-                                                               </div>
-                                                           </div>
                                                        </div>
                                                    </div>
                                                </div>
@@ -110,15 +68,18 @@
                 </div>
            </div>
 
+
+
+
            <div class="">
-               <div class="text-farve5 pe-lg-1 websiteIconBoks">
+               <div class="text-white pe-lg-1 websiteIconBoks">
                    <div class="row text-center align-items-center justify-content-evenly py-3 bg-primary">
-                       <div class="col-auto pt-lg-0 bg-light">
+                       <div class="col-auto pt-lg-0 ">
                            <div class="d-flex- align-items-center justify-content-center">
-                               <h5 class="pt-1 border-bottom border-1 border-primary">Mail / Kalender</h5>
+                               <h5 class="pt-1 border-bottom border-1 border-white">Mail / Kalender</h5>
                                <div class="row text-center align-items-center">
                                    <div class="col-auto">
-                                       <div class="flex-lg-wrap align-items-center justify-content-center shadow">
+                                       <div class="flex-lg-wrap align-items-center justify-content-center shadow bg-light">
                                            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
                                                <img src="images/gmail.png" class="websiteIcon p-2 border border-1 border-light" alt="Alternativ tekst">
                                                <p class="text-farve5 bg-light px-1">Gmail</p>
@@ -126,7 +87,7 @@
                                        </div>
                                    </div>
                                    <div class="col-auto">
-                                       <div class="flex-lg-wrap align-items-center justify-content-center shadow">
+                                       <div class="flex-lg-wrap align-items-center justify-content-center shadow bg-light">
                                            <a href="https://outlook.live.com/mail/0/" target="_blank">
                                                <img src="images/hotmail.png" class="websiteIcon p-2 border border-1 border-light" alt="Alternativ tekst">
                                                <p class="text-farve5 bg-light px-1">Hotmail</p>
@@ -144,12 +105,12 @@
                                </div>
                            </div>
                        </div>
-                       <div class="col-auto pt-lg-0 bg-light">
+                       <div class="col-auto pt-lg-0">
                            <div class="d-flex- align-items-center justify-content-center">
-                               <h5 class="pt-1 border-bottom border-1 border-primary">Offentligt</h5>
+                               <h5 class="pt-1 border-bottom border-1 border-white">Offentligt</h5>
                                <div class="row text-center align-items-center  ">
                                    <div class="col-auto">
-                                       <div class="flex-lg-wrap align-items-center justify-content-center shadow">
+                                       <div class="flex-lg-wrap align-items-center justify-content-center shadow bg-light">
                                            <a href="https://www.mitid.dk/self-service-auto-logud/" target="_blank">
                                                <img src="images/mitid.png" class="websiteIcon p-2 border border-1 border-light" alt="Alternativ tekst">
                                                <p class="text-farve5 bg-light px-1">MitID</p>
@@ -157,7 +118,7 @@
                                        </div>
                                    </div>
                                    <div class="col-auto">
-                                       <div class="flex-lg-wrap align-items-center justify-content-center shadow">
+                                       <div class="flex-lg-wrap align-items-center justify-content-center shadow bg-light">
                                            <a href="https://www.borger.dk/" target="_blank">
                                                <img src="images/borger.png" class="websiteIcon p-2 border border-1 border-light" alt="Alternativ tekst">
                                                <p class="text-farve5 bg-light px-1">Borger</p>
@@ -165,7 +126,7 @@
                                        </div>
                                    </div>
                                    <div class="col-auto">
-                                       <div class="flex-lg-wrap align-items-center justify-content-center shadow bg-light">
+                                       <div class="flex-lg-wrap align-items-center justify-content-center shadow bg-light bg-light">
                                            <a href="https://private.e-boks.com/" target="_blank">
                                                <img src="images/eboks.png" class="websiteIcon p-2 border border-1 border-light" alt="Alternativ tekst">
                                                <p class="text-farve5 bg-light px-1">E-Boks</p>
@@ -368,8 +329,8 @@
                </div>
            </div>
        </div>
-       <div class="col-12 col-lg-2 d-flex justify-content-center justify-content-lg-start pt-lg-4">
-           <img src="images/annoncer.png" class="img-fluid mx-auto mx-lg-0">
+       <div class="col-12 col-lg-2 d-flex justify-content-center justify-content-lg-start pt-lg-4 bg-primary">
+           <img src="images/annoncer.png" class="img-fluid mx-auto mx-lg-0 pt-2">
        </div>
 
    </div>
