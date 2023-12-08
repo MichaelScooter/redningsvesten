@@ -1,27 +1,26 @@
 <?php
 require "settings/init.php";
 
-
-$vejrBy = (!empty($_POST["vejrBy"])) ? $_POST["vejrBy"] : "København";
-$vejrUgeNr = (!empty($_POST["vejrUgeNr"])) ? $_POST["vejrUgeNr"] : "50";
-
-$vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vejrUgeNr", [":vejrBy" => $vejrBy, ":vejrUgeNr" => $vejrUgeNr]);
+// Check if the form is submitted
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $vejrBy = (!empty($_POST["vejrBy"])) ? $_POST["vejrBy"] : "København";
+    $vejrUgeNr = (!empty($_POST["vejrUgeNr"])) ? $_POST["vejrUgeNr"] : "50";
+} else {
+    // If the form is not submitted, use default values
+    $vejrBy = "København";
+    $vejrUgeNr = "50";
+}
 
 $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vejrUgeNr", [":vejrBy" => $vejrBy, ":vejrUgeNr" => $vejrUgeNr]);
 ?>
 
-
 <!DOCTYPE html>
 <html lang="da">
 <head>
-
     <title>Din Digitale Redningsvest</title>
     <meta name="description" content="Digital Redningsvest - Gør det Nemt & Enkelt !">
-
     <?php include "include/head.php"; ?>
-
 </head>
-<!------------------------------------------------- Body -------------------------------------------------------------->
 <body>
 <?php include "include/navigation.php"; ?>
 
@@ -53,21 +52,20 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                                                         <div>
                                                             By:
                                                             <select name="vejrBy" class="w-100">
-                                                                <option value="København" selected>København</option>
-                                                                <option value="Odense">Odense</option>
+                                                                <option value="København" <?php if ($vejrBy === "København") echo "selected"; ?>>København</option>
+                                                                <option value="Odense" <?php if ($vejrBy === "Odense") echo "selected"; ?>>Odense</option>
                                                             </select>
                                                         </div>
                                                         <div>
-                                                           Uge nr
+                                                            Uge nr
                                                             <select name="vejrUgeNr" class="w-100">
-                                                                <option value="50" selected>50</option>
-                                                                <option value="51">51</option>
+                                                                <option value="50" <?php if ($vejrUgeNr === "50") echo "selected"; ?>>50</option>
+                                                                <option value="51" <?php if ($vejrUgeNr === "51") echo "selected"; ?>>51</option>
                                                             </select>
                                                         </div>
                                                         <button type="submit" class="btn-sm bg-primary text-white btn-link mt-2">Godkend</button>
                                                     </form>
                                                 </div>
-
                                             </div>
                                             <div class="col-lg-9">
                                                 <div class="text-center align-items-center justify-content-evenly">
