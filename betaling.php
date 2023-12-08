@@ -17,7 +17,7 @@
         <div class="text-center pt-lg-5">
             <h5 class="text-primary">Betaling</h5>
             <h2>Vi bruger sikker betaling</h2>
-            <p>Vi bruger krypteringsteknologi til at beskytte dine betalingsoplysninger under transmission. <br>Dette sikrer, at dine følsomme data forbliver private og ikke kan læses af uautoriserede parter.</p>
+            <p>Vi bruger krypteringsteknologi til at beskytte dine betalingsoplysninger. <br>Dermed at du sikret, at de ikke kan ses af andre end os. </p>
         </div>
     </div>
 </div>
@@ -90,12 +90,12 @@
                                         <label for="cvc">CVC</label>
                                         <input type="text" id="cvc" class="form-control" maxlength="3" size="4" placeholder="123">
                                     </div>
-                                    <p>Tre eller fire cifre, som normalt findes på bagsiden af kortet</p>
+                                    <p class="cifferTekstBetalingskort pt-3">Tre eller fire cifre, som normalt findes på bagsiden af kortet</p>
                                 </div>
                                 <label for="email">E-mail</label> <!-- Ny label til e-mail-indtastningsfelt -->
                                 <input type="email" id="email" class="form-control" placeholder="Indtast din e-mailadresse" required> <!-- E-mail-indtastningsfelt med påkrævet attribut -->
 
-                                <button class="btn btn-farve5">Godkend køb</button>
+                                <button class="btn btn-success mt-2">Godkend køb</button>
                             </form>
                         </div>
                     </div>

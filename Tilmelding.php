@@ -16,14 +16,13 @@
 
 
 
-<div class="container">
-    <div class="row">
-        <div class="text-center">
-            <h5 class="text-primary">Tilmelding</h5>
-            <h2>Køb af billetter til events</h2>
-            <p class="lead">På betalingssiden skal du indtaste din e-mailadresse.</p>
-            <p>Når du har gennemført købet, vil du øjeblikkeligt modtage de købte billetter via e-mail. <br>
-                Vigtigt at du indtaster din korrekte e-mailadresse for at modtage billetterne efter købet.</p>
+<div class="container pt-lg-5">
+    <div class="row pt-lg-5">
+        <div class="text-center pt-lg-5">
+            <h2 class="pt-lg-2">Abonnement</h2>
+            <p class="lead">Vælg abonnement - (årligt / månedligt)</p>
+            <p>Når du har gennemført købet, vil du øjeblikkeligt få flere adgang og vejrinformation <br>
+               Du modtager en kvittering på e-mail. </p>
         </div>
     </div>
 </div>
@@ -39,12 +38,12 @@
                 <div class="basket-module">
                     <label for="promo-code">Indtast rabat kode:</label>
                     <input id="promo-code" type="text" name="promo-code" maxlength="5" class="promo-code-field">
-                    <button class="promo-code-cta  btn btn-farve5 text-white">Indløs</button>
+                    <button class="promo-code-cta  btn btn-primary text-white">Indløs</button>
 
                 </div>
                 <div class="basket-labels">
                     <ul>
-                        <li class="item item-heading">Event</li>
+                        <li class="item item-heading">Abonnementstype</li>
                         <li class="price">Pris</li>
                         <li class="quantity">Antal</li>
                         <li class="subtotal">Subtotal</li>
@@ -53,16 +52,13 @@
 
                 <div class="basket-product">
                     <div class="item">
-                        <div class="product-image">
-                            <img src="images/oel-smagning-vinbaren.webp" alt="Placholder Image 2" class="product-frame">
-                        </div>
                         <div class="product-details">
-                            <h6>1 x billet</h6>
-                            <p><strong>Øl Smagning</strong></p>
-                            <p>Lørdag d. 24. juni kl. 20.00</p>
+                            <h6>1 års</h6>
+                            <p><strong>Abonnement</strong></p>
+                            <p class="text-secondary fw-semibold">Spar over 15%</p>
                         </div>
                     </div>
-                    <div class="price">195.00</div>
+                    <div class="price">200.00</div>
                     <div class="quantity">
                         <input type="number" value="0" min="0" class="quantity-field">
                     </div>
@@ -72,16 +68,12 @@
 
                 <div class="basket-product">
                     <div class="item">
-                        <div class="product-image">
-                            <img src="images/kagebuffet-vinbaren.webp" alt="Placholder Image 2" class="product-frame">
-                        </div>
                         <div class="product-details">
-                            <h6>1 x billet</h6>
-                            <p><strong>Sønderjysk Kagebord</strong></p>
-                            <p>Lørdag d. 8. juli kl. 16.00</p>
+                            <h6>1 måned</h6>
+                            <p><strong>Abonnement</strong></p>
                         </div>
                     </div>
-                    <div class="price">245.00</div>
+                    <div class="price">20.00</div>
                     <div class="quantity">
                         <input type="number" value="0" min="0" class="quantity-field">
                     </div>
@@ -108,7 +100,7 @@
                         <div class="total-value final-value" id="basket-total">0.00</div>
                     </div>
                     <div class="summary-checkout">
-                        <a href="betaling.php" class="checkout-cta btn btn-farve5 text-white "style="font-family: montserrat">Gå til sikker betaling</a>
+                        <a href="betaling.php" class="checkout-cta btn btn-success text-white">Gå til sikker betaling</a>
                     </div>
                 </div>
             </aside>
