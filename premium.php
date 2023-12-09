@@ -26,23 +26,21 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
 
 
 
-<div class="container-fluid hovedContainer min-vh-100 pt-5">
+<div class="container-fluid hovedContainer min-vh-100 pt-lg-4">
     <div class="pt-4">
-        <div class="row pt-5">
-            <div class="col-12 col-lg-10 ">
+        <div class="row pt-4">
+            <div class="col-12 ">
                 <div class="ps-lg-3">
                     <div class="bg-white border border-1 border-white">
-                        <div class="row pt-lg-3 pb-2">
-                            <div class="col-12 col-lg-3 ">
-                                <div class="">
+                        <div class="row pb-1">
+                            <div class="col-12 col-lg-3 pt-lg-2">
+                                <div class="p-lg-4 ">
                                     <img src="images/dame_hero_610_brun.png" class="img-fluid heroImage">
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-9 ">
+                            <div class="col-12 col-lg-9 pt-lg-3">
                                 <div class=" px-3 pt-lg-5">
-                                    <h1>Vigtige sider - Direkte adgang</h1>
-                                    <p class="lead">Hold dig flydende i det store Internet hav - Find Nemt & Hurtigt !</p>
-                                    <p><span class="fw-semibold">Undgå reklamebølger med <a href="premium.php" class="text-primary fw-semibold text-decoration-underline">abonnement</a> til kun kr. 20/måned!</span> <br>Svøm uden forstyrrende annoncer, og få bonus med flere direkte indgange og udvidede vejrinformationer. <br>Plus, du støtte mig med en god kage til kaffen, mens jeg passer og vedligeholder din redningskrans 😊.</p>
+                                    <h1>Premium Abonnement</h1>
                                 </div>
                                 <div class="pt-lg-3">
                                     <div class="p-3">
@@ -72,17 +70,22 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                                                     </form>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-9 p-3">
+                                            <div class="col-lg-9 ">
                                                 <div class="text-center align-items-center justify-content-evenly">
                                                     <div class="col-lg-auto pt-lg-0">
                                                         <div class="d-flex align-items-center justify-content-center">
                                                             <?php
                                                             foreach ($vejr as $v){
                                                                 ?>
-                                                                <div class="align-items-center justify-content-center mx-2">
+                                                                <div class="align-items-center justify-content-center mx-3 tempBox">
                                                                     <div><img src="uploads/<?php echo $v->vejrBilled; ?>" alt="vejr Billede" class="img-fluid vejrIcon"></div>
-                                                                    <div class="vejrUgeDag"><?php echo $v->vejrUgeDag;?></div>
-                                                                    <div class="vejrTemp"> <?php echo $v->vejrTemp;?>&deg; C</div>
+                                                                    <div class="vejrUgeDag fw-normal"><?php echo $v->vejrUgeDag;?></div>
+                                                                    <div class="vejrTemp fw-normal"> <?php echo $v->vejrTemp;?>&deg; C</div>
+                                                                    <div class="vejrBeskrivelse fw-normal"><?php echo $v->vejrBeskrivelse;?></div><br>
+                                                                    <div class="vejrMaxTemp">Max. <?php echo $v->vejrMaxTemp;?>&deg;</div>
+                                                                    <div class="vejrMinTemp">Min. <?php echo $v->vejrMinTemp;?>&deg;</div><br>
+                                                                    <div class="vejrUx">UV-indeks: <br><?php echo $v->vejrUx;?></div>
+                                                                    <div class="vejrRegn">Nedbør: <br><?php echo $v->vejrRegn;?> mm.</div>
 
                                                                 </div>
                                                                 <?php
@@ -102,7 +105,9 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                 </div>
 
                 <div class="">
-                    <div class="text-farve4 websiteIconBoks pt-3">
+
+
+                    <div class="text-farve4 websiteIconBoks pt-3 border-bottom border-1 border-white">
                         <div class="row text-center align-items-center justify-content-evenly py-3 bg-primary">
                             <div class="col-auto pt-lg-0 ">
                                 <div class="d-flex- align-items-center justify-content-center">
@@ -229,6 +234,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                                 </div>
                             </div>
                         </div>
+
                         <div class="row text-center align-items-center justify-content-evenly py-3 bg-primary">
                             <div class="col-auto pt-lg-0">
                                 <div class="d-flex- align-items-center justify-content-center">
@@ -358,12 +364,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
 
                     </div>
                 </div>
-
             </div>
-            <div class="col-12 col-lg-2 d-flex justify-content-center justify-content-lg-start">
-                <img src="images/annoncer.png" class="img-fluid mx-auto mx-lg-0 ps-lg-1">
-            </div>
-
         </div>
 
     </div>

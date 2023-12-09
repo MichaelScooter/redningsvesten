@@ -42,7 +42,7 @@ export default class VejrTabel {
                         <p class="card-text">${item.vejrTemp}</p>
                         <p class="card-text">${item.vejrBeskrivelse}</p>
                         <p class="card-text">${item.vejrMinTemp}</p>
-                        <p class="card-text">${item.vejrMaxTempe}</p>
+                        <p class="card-text">${item.vejrMaxTemp}</p>
                         <p class="card-text">${item.vejrUx}</p>
                         <p class="card-text">${item.vejrRegn}</p>                       
                     </div>

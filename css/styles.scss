@@ -10,7 +10,7 @@ $link-decoration: none;
 
 // 4. Include any default map overrides here
 $custom-colors: (
-				"primary": #37130A,
+				"primary": #3d0b02,
 				"secondary":#F4442E,
 				"farve3": #FFF8F0,
 				"farve4": #FFD8A9,
@@ -33,7 +33,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // 5. Du kan lave styling her...
 
-h1, h2, h3, h4, h5, h6 p{
+h1, h2, h3, h4, h5, h6{
 	font-family: montserrat, sans-serif;
 }
 
@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 p{
 }
 
 .websiteIcon{
-	max-width: 50px;
+	max-width: 60px;
 }
 
 .googleButton{
@@ -81,9 +81,13 @@ h1, h2, h3, h4, h5, h6 p{
 	font-size:14px;
 }
 
+.tempBox{
+	font-weight: 300;
+}
+
 
 h5{
-	font-weight: lighter;
+
 	font-size: 16px;
 }
 

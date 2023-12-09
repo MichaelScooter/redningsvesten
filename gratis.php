@@ -26,7 +26,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
 
 
 
-<div class="container-fluid hovedContainer min-vh-100 pt-5">
+<div class="container-fluid hovedContainer min-vh-100 pt-4" style="background-image: url('images/wavebred.png'); background-size: contain; background-repeat: no-repeat; background-position:bottom">
     <div class="pt-4">
         <div class="row pt-5">
             <div class="col-12 col-lg-10 ">
@@ -104,8 +104,8 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                 </div>
                 <!----------- website ikoner ----------------->
 
-                <div class="">
-                    <div class="text-farve4 websiteIconBoks pt-3">
+                <div class="pt-lg-5 mt-lg-5" >
+                    <div class="text-farve4 websiteIconBoks pt-3 pt-lg-5 mt-lg-5">
                         <div class="row text-center align-items-center justify-content-evenly py-3 bg-primary">
                             <div class="col-auto pt-lg-0 ">
                                 <div class="d-flex- align-items-center justify-content-center">
@@ -238,7 +238,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                 </div>
 
             </div>
-            <div class="col-12 col-lg-2 d-flex justify-content-center justify-content-lg-start">
+            <div class="col-12 col-lg-2 d-flex justify-content-center justify-content-lg-start bg-white">
                 <img src="images/annoncer.png" class="img-fluid mx-auto mx-lg-0 ps-lg-1">
             </div>
 

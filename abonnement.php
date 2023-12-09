@@ -12,14 +12,15 @@
 <div class="container-fluid justify-content-center pt-5">
     <div class="d-flex pt-5 text-center justify-content-center row">
         <h1 class="pt-3">Abonnement</h1>
-        <p class="lead">Flere direkte og (valgfri) adgange + mere vejrinformation</p>
+        <p><span class="lead">Flere direkte og (valgfri) adgange + mere vejrinformation</span><br>Premium forsiden kan ses nederst på denne side</p>
+
     </div>
 
 
 
-    <div class="d-flex justify-content-center flex-md-row flex-column pt-5">
+    <div class="d-flex justify-content-center flex-md-row flex-column py-5">
 
-        <!-- 2. -->
+        <!-- 1. -->
         <div class="col-md-3 border border-1 border-secondary">
             <div class="shadow">
             <div class="table">
@@ -43,7 +44,7 @@
             </div>
         </div>
 
-        <!-- 3. -->
+        <!-- 2. -->
         <div class="col-md-3 pt-3">
             <div class="table shadow border-end border-top border-1 border-farve6">
                 <div class="table-header text-center">
@@ -63,9 +64,9 @@
                 <img src="images/wave.png" class="img-fluid pt-3">
             </div>
         </div>
-
-
     </div>
+    <hr>
+    <img src="images/premium.png" class="img-fluid">
 </div>
 
 
