@@ -12,20 +12,24 @@
 <!------------------------------------------------- Body -------------------------------------------------------------->
 <body>
 <?php include "include/navigation.php"; ?>
+<div class="container-fluid">
+    <div class="pt-lg-5 text-center">
+        <div class="pt-5 huskelisten">
 
-<div class="container pt-5 bg-light huskelisten">
-    <i class="fas fa-list-ul fa-2x"></i>
-    <h1 class="pt-5">Huskeliste</h1>
-    <p class="lead">Skriv det du skal huske og tryk på gem knappen</p>
+        <h1 class="pt-5">Huskeliste</h1>
+        <p class="lead"> Hvis en opgave er udført og du ønsker den forbliver på listen, <br>så kan du klikke på den og den bliver grøn.</p>
 
-    <div id="inputArea">
-        <input type="text" placeholder="Skriv det du skal huske og tryk på "gem-knappen"...">
-        <button><i class="fas fa-pencil-alt"></i>Gem</button>
+            <div class="bg-primary p-5">
+                <div id="inputArea">
+                    <input type="text" placeholder="Skriv her og tryk på 'Gem' knappen &rarr;">
+                    <button><i class="fas fa-pencil-alt"></i>Gem</button>
+                </div>
+
+            <ul id="toDoList" class="pt-lg-2"></ul>
+            </div>
+        </div>
     </div>
-
-    <ul id="toDoList"></ul>
 </div>
-
 <!------------------------------------------------- Footer ------------------------------------------------------------>
 <?php include "include/footer.php"; ?>
 

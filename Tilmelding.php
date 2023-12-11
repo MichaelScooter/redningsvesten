@@ -39,7 +39,7 @@
 
 
 <main>
-    <div class="container">
+    <div class="container tilmeldingsSiden">
         <div class="row">
             <div class="col-12 col-lg-6 basket pt-lg-5">
                 <div class="basket-module">

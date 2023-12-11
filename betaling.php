@@ -28,7 +28,7 @@
         </div>
     </div>
 </div>
-<div class="container pt-2">
+<div class="container pt-2 betalingsSiden">
     <div class="card-body pt-5 pt-lg-0">
         <div class="d-flex justify-content-center">
             <div class="row">

@@ -43,7 +43,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                                 <div class=" px-3 pt-lg-5">
                                     <h1>Vigtige sider - Direkte adgang</h1>
                                     <p class="lead">Hold dig flydende i det store Internet hav - Find Nemt & Hurtigt !</p>
-                                    <p><span class="fw-semibold">Undgå reklamebølger med <a href="abonnement.php" class="text-secondary fw-semibold text-decoration-underline">abonnement</a> til kun kr. 20/måned!</span> <br>Svøm uden forstyrrende annoncer, og få bonus med flere direkte adgange og udvidede vejrinformationer. <br>Plus, du støtte mig med en god kage til kaffen, mens jeg passer og vedligeholder din redningskrans 😊.</p>
+                                    <p><span class="fw-medium">Undgå reklamebølger med <a href="abonnement.php" class="text-secondary fw-semibold text-decoration-underline">abonnement</a> til kun kr. 20/måned. <a href="abonnement.php" class="text-secondary fw-semibold">1 GRATIS prøvemåned.</a></span><br>Svøm uden forstyrrende annoncer, og få bonus med flere direkte adgange og udvidede vejrinformationer. <br>Plus, du støtte mig med en god kage til kaffen, mens jeg passer og vedligeholder din redningskrans 😊.</p>
                                 </div>
                                 <!----------- Vejret ----------------->
                                 <div class="pt-lg-3">
