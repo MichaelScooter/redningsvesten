@@ -17,11 +17,18 @@
 
 
 <div class="container pt-lg-5">
-    <div class="row pt-lg-5">
-        <div class="text-center pt-lg-5">
-            <h2 class="pt-lg-2">Abonnement</h2>
-            <p class="lead">Vælg abonnement - (årligt / månedligt)</p>
-            <p>Når du har gennemført købet, vil du øjeblikkeligt få flere adgang og vejrinformation <br>
+    <div class="d-flex justify-content-center mt-5" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page"><span class="text-decoration-underline"> 1. Vælg abonnement</span></li>
+            <li class="breadcrumb-item"><a href="betaling.php" class="text-primary">2. Betaling</a></li>
+        </ol>
+    </div>
+
+    <div class="row">
+        <div class="text-center">
+            <h2 class="pt-lg-2">Læg i kurven</h2>
+            <p class="lead text-secondary fw-normal">Vælg abonnement - (årligt / månedligt)</p>
+            <p>Når du har gennemført købet, vil du øjeblikkeligt få flere adgange og vejrinformation <br>
                Du modtager en kvittering på e-mail. </p>
         </div>
     </div>
@@ -36,7 +43,7 @@
         <div class="row">
             <div class="col-12 col-lg-6 basket pt-lg-5">
                 <div class="basket-module">
-                    <label for="promo-code">Indtast rabat kode:</label>
+                    <label for="promo-code">Indtast rabat kode: (Få en Gratis prøve måned = Skriv ordet: Gratis)</label>
                     <input id="promo-code" type="text" name="promo-code" maxlength="5" class="promo-code-field">
                     <button class="promo-code-cta  btn btn-primary text-white">Indløs</button>
 
@@ -75,7 +82,7 @@
                     </div>
                     <div class="price">20.00</div>
                     <div class="quantity">
-                        <input type="number" value="0" min="0" class="quantity-field">
+                        <input type="number" value="0" min="0" class="quantity-field sikker">
                     </div>
                     <div class="subtotal">0.00</div>
                 </div>
@@ -85,7 +92,7 @@
 
             <aside class="col-12 col-lg-6 pt-5">
                 <div class="summary">
-                    <div class="summary-total-items"><span class="total-items"></span> Billetter</div>
+                    <div class="summary-total-items"><span class="total-items"></span> Abonnement</div>
                     <div class="summary-subtotal">
                         <div class="subtotal-title">Subtotal</div>
                         <div class="subtotal-value final-value" id="basket-subtotal">0.00</div>
@@ -110,12 +117,10 @@
 
 
 
-
-
 <?php include "include/footer.php"; ?>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-
+<script src="js/sikker.js"></script>
 <!-- Tilmeldingsside -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
@@ -140,10 +145,10 @@
     $(".promo-code-cta").click(function () {
         promoCode = $("#promo-code").val();
 
-        if (promoCode == "ven" || promoCode == "ven") {
-            //If promoPrice has no value, set it as 10 for the 10OFF promocode - Michael Har ændret til VEN
+        if (promoCode == "måned" || promoCode == "Måned" || promoCode == "MÅNED") {
+            //If promoPrice has no value, set it as 10 for the 10OFF promocode - Michael Har ændret til Måned
             if (!promoPrice) {
-                promoPrice = 100;
+                promoPrice = 20;
             } else if (promoCode) {
                 promoPrice = promoPrice * 1;
             }

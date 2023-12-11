@@ -25,11 +25,11 @@ if($data["password"] == "RedningsvestenKode") {
         $nameSearch = "%" . $data["nameSearch"] . "%";
         // Opret en variabel $nameSearch og tildel den en værdi, der indeholder brugersøgningen med jokertegn (%) foran og bagved.
 
-        $sql .= " AND (vejrBy LIKE :vejrBy OR vejrUgeNr LIKE :vejrUgeNr)";
+        $sql .= " AND (vejrBy LIKE :vejrBy)";
         // Tilføj betingelsen til SQL-forespørgslen. Dette søger i valgte kolonner (kodeKunde, kodeCvr, kodeUnik) og bruger LIKE-operatoren til delvise tekstmatcher.
 
         $bind[":vejrBy"] = $nameSearch;
-        $bind[":vejrUgeNr"] = $nameSearch;
+
 
         // Opret en associeret liste (array) med placeholders for SQL-bindings. Dette sikrer, at søgeudtrykket bliver erstattet i SQL-forespørgslen.
     }

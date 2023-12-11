@@ -12,11 +12,18 @@
 <body>
 <?php include "include/navigation.php"; ?>
 
-<div class="container pt-lg-5">
-    <div class="row pt-lg-5">
+<div class="container">
+    <div class="row">
         <div class="text-center pt-lg-5">
-            <h5 class="text-primary">Betaling</h5>
-            <h2>Vi bruger sikker betaling</h2>
+            <div class="d-flex justify-content-center mt-5" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="Tilmelding.php" class="text-primary">1. Vælg abonnement</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"><span class="text-decoration-underline">2. Betaling</span></li>
+
+                </ol>
+            </div>
+            <h2 class="text-primary">Betaling</h2>
+            <p class="lead text-secondary fw-medium">Vi bruger sikker betaling</p>
             <p>Vi bruger krypteringsteknologi til at beskytte dine betalingsoplysninger. <br>Dermed at du sikret, at de ikke kan ses af andre end os. </p>
         </div>
     </div>

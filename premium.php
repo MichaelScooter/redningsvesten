@@ -26,33 +26,33 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
 
 
 
-<div class="container-fluid hovedContainer min-vh-100 pt-lg-4">
-    <div class="pt-4">
+<div class="container-fluid hovedContainer min-vh-100 pt-lg-3">
+    <div class="pt-5">
         <div class="row pt-4">
             <div class="col-12 ">
                 <div class="ps-lg-3">
                     <div class="bg-white border border-1 border-white">
                         <div class="row pb-1">
-                            <div class="col-12 col-lg-3 pt-lg-2">
-                                <div class="p-lg-4 ">
-                                    <img src="images/dame_hero_610_brun.png" class="img-fluid heroImage">
+                            <div class="col-12 col-lg-3 pt-lg-5">
+                                <div class="ps-lg-2 pt-lg-2">
+                                    <img src="images/brun_dame_lille.jpg" class="img-fluid heroImage">
                                 </div>
                             </div>
                             <div class="col-12 col-lg-9 pt-lg-3">
-                                <div class=" px-3 pt-lg-5">
+                                <div class=" ps-lg-3 pt-lg-5">
                                     <h1>Premium Abonnement</h1>
                                 </div>
-                                <div class="pt-lg-3">
-                                    <div class="p-3">
+                                <div class="">
+                                    <div class="">
                                         <div class="row">
                                             <div class="col-lg-3 align-items-center">
-                                                <div class="flex-lg-wrap align-items-center justify-content-center">
-                                                    <h5 class="pt-1 border-bottom border-1 border-primary fw-semibold">Vejret - <span class="overskriftByogUge">Vælg & Godkend</span></h5>
-                                                    <form action="" method="post" class="mt-3">
+                                                <div class="flex-lg-wrap align-items-center justify-content-center ps-lg-3">
+                                                    <h5 class="pt-1 border-bottom border-1 border-primary fw-semibold ">Vejret - <span class="overskriftByogUge">Vælg & Godkend</span></h5>
+                                                    <form action="" method="post" class="">
                                                         <div class="row">
                                                             <div class="col-8">
                                                                 <span class="overskriftByogUge">By:</span>
-                                                                <select name="vejrBy" class="w-100">
+                                                                <select name="vejrBy" class="w-100 border-secondary">
 
                                                                     <option value="København" <?php if ($vejrBy === "København") echo "selected"; ?>>København</option>
                                                                     <option value="Odense" <?php if ($vejrBy === "Odense") echo "selected"; ?>>Odense</option>
@@ -60,7 +60,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                                                             </div>
                                                             <div class="col-4">
                                                                 <span class="overskriftByogUge">Uge:</span>
-                                                                <select name="vejrUgeNr" class="w-100">
+                                                                <select name="vejrUgeNr" class="w-100 border-secondary">
                                                                     <option value="50" <?php if ($vejrUgeNr === "50") echo "selected"; ?>>50</option>
                                                                     <option value="51" <?php if ($vejrUgeNr === "51") echo "selected"; ?>>51</option>
                                                                 </select>
@@ -104,10 +104,8 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                     </div>
                 </div>
 
-                <div class="">
-
-
-                    <div class="text-farve4 websiteIconBoks pt-3 border-bottom border-1 border-white">
+                <div class="mt-lg-4">
+                    <div class="text-farve4 websiteIconBoks pt-4 border-bottom border-1 border-white">
                         <div class="row text-center align-items-center justify-content-evenly py-3 bg-primary">
                             <div class="col-auto pt-lg-0 ">
                                 <div class="d-flex- align-items-center justify-content-center">
@@ -204,7 +202,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                             </div>
                             <div class="col-auto pt-lg-0">
                                 <div class="d-flex- align-items-center justify-content-center">
-                                    <h5 class="pt-1">Transport</h5>
+                                    <h5 class="pt-1 pe-3">Transport</h5>
                                     <div class="row text-center align-items-center">
                                         <div class="col-auto">
                                             <div class="flex-lg-wrap align-items-center justify-content-center shadow">

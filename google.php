@@ -12,10 +12,11 @@
 <body>
 <?php include "include/navigation.php"; ?>
 
-<div class="mt-lg-5 pt-lg-5">
 
-    <iframe src="https://www.google.com/webhp?igu=1" width="100%" class="vh-100"></iframe>
+<div>
+    <iframe src="https://www.google.com/webhp?igu=1" width="100%" class="vh-100 googleSiden"></iframe>
 </div>
+
 
 
 

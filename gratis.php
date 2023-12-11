@@ -27,23 +27,23 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
 
 
 <div class="container-fluid hovedContainer min-vh-100 pt-4" style="background-image: url('images/wavebred.png'); background-size: contain; background-repeat: no-repeat; background-position:bottom">
-    <div class="pt-4">
-        <div class="row pt-5">
+    <div class="pt-3">
+        <div class="row">
             <div class="col-12 col-lg-10 ">
-                <div class="ps-lg-3">
+                <div class="ps-lg-3 pt-lg-5">
                     <div class="bg-white border border-1 border-white">
-                        <div class="row pt-lg-3 pb-2">
-                            <div class="col-12 col-lg-3 ">
-                                <div class="">
-                                    <img src="images/dame_hero_610_brun.png" class="img-fluid heroImage">
+                        <div class="row pt-lg-3 ">
+                            <div class="col-12 col-lg-4 ">
+                                <div class="p-lg-3 pt-lg-5">
+                                    <img src="images/brun_dame_lille.jpg" class="img-fluid heroImage">
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-9 ">
+                            <div class="col-12 col-lg-8 ">
                                 <!----------- Tekst hero ----------------->
                                 <div class=" px-3 pt-lg-5">
                                     <h1>Vigtige sider - Direkte adgang</h1>
                                     <p class="lead">Hold dig flydende i det store Internet hav - Find Nemt & Hurtigt !</p>
-                                    <p><span class="fw-semibold">Undgå reklamebølger med <a href="premium.php" class="text-primary fw-semibold text-decoration-underline">abonnement</a> til kun kr. 20/måned!</span> <br>Svøm uden forstyrrende annoncer, og få bonus med flere direkte indgange og udvidede vejrinformationer. <br>Plus, du støtte mig med en god kage til kaffen, mens jeg passer og vedligeholder din redningskrans 😊.</p>
+                                    <p><span class="fw-semibold">Undgå reklamebølger med <a href="abonnement.php" class="text-secondary fw-semibold text-decoration-underline">abonnement</a> til kun kr. 20/måned!</span> <br>Svøm uden forstyrrende annoncer, og få bonus med flere direkte adgange og udvidede vejrinformationer. <br>Plus, du støtte mig med en god kage til kaffen, mens jeg passer og vedligeholder din redningskrans 😊.</p>
                                 </div>
                                 <!----------- Vejret ----------------->
                                 <div class="pt-lg-3">
@@ -56,7 +56,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                                                         <div class="row">
                                                         <div class="col-8">
                                                             <span class="overskriftByogUge">By:</span>
-                                                            <select name="vejrBy" class="w-100">
+                                                            <select name="vejrBy" class="w-100 border-secondary">
 
                                                                 <option value="København" <?php if ($vejrBy === "København") echo "selected"; ?>>København</option>
                                                                 <option value="Odense" <?php if ($vejrBy === "Odense") echo "selected"; ?>>Odense</option>
@@ -64,7 +64,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                                                         </div>
                                                         <div class="col-4">
                                                             <span class="overskriftByogUge">Uge:</span>
-                                                            <select name="vejrUgeNr" class="w-100">
+                                                            <select name="vejrUgeNr" class="w-100 border-secondary">
                                                                 <option value="50" <?php if ($vejrUgeNr === "50") echo "selected"; ?>>50</option>
                                                                 <option value="51" <?php if ($vejrUgeNr === "51") echo "selected"; ?>>51</option>
                                                             </select>
@@ -104,9 +104,9 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                 </div>
                 <!----------- website ikoner ----------------->
 
-                <div class="pt-lg-5 mt-lg-5" >
-                    <div class="text-farve4 websiteIconBoks pt-3 pt-lg-5 mt-lg-5">
-                        <div class="row text-center align-items-center justify-content-evenly py-3 bg-primary">
+                <div class="pt-lg-4 mt-lg-5" >
+                    <div class="text-farve4 websiteIconBoks pt-3 pt-lg-5 ">
+                        <div class="row text-center align-items-center justify-content-evenly py-3  pt-lg-5">
                             <div class="col-auto pt-lg-0 ">
                                 <div class="d-flex- align-items-center justify-content-center">
                                     <h5 class="pt-1 ">Mail / Kalender</h5>
@@ -202,7 +202,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                             </div>
                             <div class="col-auto pt-lg-0">
                                 <div class="d-flex- align-items-center justify-content-center">
-                                    <h5 class="pt-1">Transport</h5>
+                                    <h5 class="pt-1 pe-3">Transport</h5>
                                     <div class="row text-center align-items-center">
                                         <div class="col-auto">
                                             <div class="flex-lg-wrap align-items-center justify-content-center shadow">
@@ -239,7 +239,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
 
             </div>
             <div class="col-12 col-lg-2 d-flex justify-content-center justify-content-lg-start bg-white">
-                <img src="images/annoncer.png" class="img-fluid mx-auto mx-lg-0 ps-lg-1">
+                <img src="images/annoncer.png" class="img-fluid mx-auto mx-lg-0 ps-lg-1 pt-lg-5">
             </div>
 
         </div>
