@@ -202,7 +202,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                             </div>
                             <div class="col-auto pt-lg-0">
                                 <div class="d-flex- align-items-center justify-content-center">
-                                    <h5 class="pt-1 pe-3">Transport</h5>
+                                    <h5 class="pt-1 pe-lg-2">Transport</h5>
                                     <div class="row text-center align-items-center">
                                         <div class="col-auto">
                                             <div class="flex-lg-wrap align-items-center justify-content-center shadow">

@@ -3,7 +3,7 @@
 <head>
 
     <title>Betalingsside</title>
-    <meta name="description" content="Digital Redningsvest - Betaling">
+    <meta name="description" content="Digital Redningskrans - Betaling">
 
     <?php include "include/head.php"; ?>
 

@@ -17,8 +17,8 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
 <!DOCTYPE html>
 <html lang="da">
 <head>
-    <title>Din Digitale Redningsvest</title>
-    <meta name="description" content="Digital Redningsvest - Gør det Nemt & Enkelt !">
+    <title>Din Digitale Redningskrans</title>
+    <meta name="description" content="Digital Redningskrans - Gør det Nemt & Enkelt !">
     <?php include "include/head.php"; ?>
 </head>
 <body>
@@ -105,8 +105,8 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                 </div>
 
                 <div class="mt-lg-4">
-                    <div class="text-farve4 websiteIconBoks pt-4 border-bottom border-1 border-white">
-                        <div class="row text-center align-items-center justify-content-evenly py-3 bg-primary">
+                    <div class="text-farve4 websiteIconBoks pt-5 border-bottom border-1 border-white">
+                        <div class="row text-center align-items-center justify-content-evenly py-3 bg-primary pt-lg-4">
                             <div class="col-auto pt-lg-0 ">
                                 <div class="d-flex- align-items-center justify-content-center">
                                     <h5 class="pt-1 ">Mail / Kalender</h5>
@@ -202,9 +202,9 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                             </div>
                             <div class="col-auto pt-lg-0">
                                 <div class="d-flex- align-items-center justify-content-center">
-                                    <h5 class="pt-1 pe-3">Transport</h5>
+                                    <h5 class="pt-1">Transport</h5>
                                     <div class="row text-center align-items-center">
-                                        <div class="col-auto">
+                                        <div class="col-4 col-lg-auto">
                                             <div class="flex-lg-wrap align-items-center justify-content-center shadow">
                                                 <a href="https://www.rejsekort.dk/" target="_blank">
                                                     <img src="images/rejsekort.png" class="websiteIcon" alt="Alternativ tekst">
@@ -212,7 +212,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-auto">
+                                        <div class="col-4 col-lg-auto">
                                             <div class="flex-lg-wrap align-items-center justify-content-center shadow">
                                                 <a href="https://www.moviatrafik.dk/flexkunde/flextur/bestilling-af-flextur/?v=L0i92SKjs8U" target="_blank">
                                                     <img src="images/flextrafik.png" class="websiteIcon" alt="Alternativ tekst">
@@ -220,7 +220,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-auto">
+                                        <div class="col-4 col-lg-auto">
                                             <div class="flex-lg-wrap align-items-center justify-content-center shadow">
                                                 <a href="https://rejseplanen.dk/webapp/#!P|TP!histId|0!histKey|H574629" target="_blank">
                                                     <img src="images/rejseplanen.png" class="websiteIcon" alt="Alternativ tekst">
@@ -238,7 +238,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                                 <div class="d-flex- align-items-center justify-content-center">
                                     <h5 class="pt-1">Sociale Medier</h5>
                                     <div class="row text-center align-items-center">
-                                        <div class="col-auto">
+                                        <div class="col-4 col-lg-auto">
                                             <div class="flex-lg-wrap align-items-center justify-content-center shadow">
                                                 <a href="https://www.facebook.com/" target="_blank">
                                                     <img src="images/facebook.png" class="websiteIcon" alt="Alternativ tekst">
@@ -246,7 +246,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-auto">
+                                        <div class="col-4 col-lg-auto">
                                             <div class="flex-lg-wrap align-items-center justify-content-center shadow">
                                                 <a href="https://www.linkedin.com/feed/?trk=onboarding-landing" target="_blank">
                                                     <img src="images/linkedin.png" class="websiteIcon" alt="Alternativ tekst">
@@ -254,7 +254,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-auto">
+                                        <div class="col-4 col-lg-auto">
                                             <div class="flex-lg-wrap align-items-center justify-content-center shadow">
                                                 <a href="https://www.instagram.com/" target="_blank">
                                                     <img src="images/instagram.png" class="websiteIcon" alt="Alternativ tekst">
@@ -269,7 +269,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                                 <div class="d-flex- align-items-center justify-content-center">
                                     <h5 class="pt-1">Nyheder</h5>
                                     <div class="row text-center align-items-center">
-                                        <div class="col-auto">
+                                        <div class="col-4 col-lg-auto">
                                             <div class="flex-lg-wrap align-items-center justify-content-center shadow">
                                                 <a href="https://nyheder.tv2.dk/" target="_blank">
                                                     <img src="images/tv2.png" class="websiteIcon" alt="Alternativ tekst">
@@ -277,7 +277,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-auto">
+                                        <div class="col-4 col-lg-auto">
                                             <div class="flex-lg-wrap align-items-center justify-content-center shadow">
                                                 <a href="https://www.dr.dk/nyheder" target="_blank">
                                                     <img src="images/dr.png" class="websiteIcon" alt="Alternativ tekst">
@@ -285,7 +285,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-auto">
+                                        <div class="col-4 col-lg-auto">
                                             <div class="flex-lg-wrap align-items-center justify-content-center shadow">
                                                 <a href="https://trafikkort.vejdirektoratet.dk/index.html" target="_blank">
                                                     <img src="images/vejdirektoratet.png" class="websiteIcon" alt="Alternativ tekst">
@@ -300,7 +300,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                                 <div class="d-flex- align-items-center justify-content-center">
                                     <h5 class="pt-1">Lydbøger</h5>
                                     <div class="row text-center align-items-center">
-                                        <div class="col-auto">
+                                        <div class="col-4 col-lg-auto">
                                             <div class="flex-lg-wrap align-items-center justify-content-center shadow">
                                                 <a href="https://mofibo.com/dk" target="_blank">
                                                     <img src="images/mofibo.png" class="websiteIcon" alt="Alternativ tekst">
@@ -308,7 +308,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-auto">
+                                        <div class="col-4 col-lg-auto">
                                             <div class="flex-lg-wrap align-items-center justify-content-center shadow">
                                                 <a href="https://www.saxo.com/dk" target="_blank">
                                                     <img src="images/saxo.png" class="websiteIcon" alt="Alternativ tekst">
@@ -316,7 +316,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-auto">
+                                        <div class="col-4 col-lg-auto">
                                             <div class="flex-lg-wrap align-items-center justify-content-center shadow">
                                                 <a href="https://ereolen.dk/Generelt-PR-materiale" target="_blank">
                                                     <img src="images/ereolen.png" class="websiteIcon" alt="Alternativ tekst">
@@ -331,7 +331,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                                 <div class="d-flex- align-items-center justify-content-center">
                                     <h5 class="pt-1">Underholdning</h5>
                                     <div class="row text-center align-items-center">
-                                        <div class="col-auto">
+                                        <div class="col-4 col-lg-auto">
                                             <div class="flex-lg-wrap align-items-center justify-content-center shadow">
                                                 <a href="https://www.dr.dk/drtv/tv-guide" target="_blank">
                                                     <img src="images/tvguiden.png" class="websiteIcon " alt="Alternativ tekst">
@@ -339,7 +339,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-auto">
+                                        <div class="col-4 col-lg-auto">
                                             <div class="flex-lg-wrap align-items-center justify-content-center shadow">
                                                 <a href="https://samvirke.dk/" target="_blank">
                                                     <img src="images/samvirke.png" class="websiteIcon" alt="Alternativ tekst">
@@ -347,7 +347,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-auto">
+                                        <div class="col-4 col-lg-auto">
                                             <div class="flex-lg-wrap align-items-center justify-content-center shadow">
                                                 <a href="https://https://www.aeldresagen.dk/" target="_blank">
                                                     <img src="images/aeldresagen.png" class="websiteIcon" alt="Alternativ tekst">

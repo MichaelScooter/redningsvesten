@@ -2,8 +2,8 @@
 <html lang="da">
 <head>
 
-    <title>Din Digitale Redningsvest</title>
-    <meta name="description" content="Digital Redningsvest - Gør det Nemt & Enkelt !">
+    <title>Google - Din Digitale Redningskrans</title>
+    <meta name="description" content="Google søgning - Digital Redningsvest - Gør det Nemt & Enkelt !">
 
     <?php include "include/head.php"; ?>
 
@@ -14,7 +14,8 @@
 
 
 <div>
-    <iframe src="https://www.google.com/webhp?igu=1" width="100%" class="vh-100 googleSiden"></iframe>
+    <iframe src="https://www.google.com/webhp?igu=1&pli=1" width="100%" class="vh-100 googleSiden"></iframe>
+
 </div>
 
 

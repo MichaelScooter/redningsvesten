@@ -4,8 +4,8 @@
 
         <a class="navbar-brand" href="index.php" id="logo">Digital Redningsvest</a>
         <div class="d-flex ">
-            <a href="gratis.php" class="btn btn-secondary btn-sm text-bg-primary p-2 btn-link">Forside</a>
-            <a href="google.php" target="_blank" class="btn btn-primary btn-sm p-2 bg-white mx-2">
+            <a href="index.php" class="btn btn-secondary btn-sm text-bg-primary p-2 btn-link">Forside</a>
+            <a href="https://www.google.dk/" class="btn btn-primary btn-sm p-2 bg-white mx-2">
                 <span class="text-googleBlue">G</span>
                 <span class="text-googlerRed">o</span>
                 <span class="text-googleYellow">o</span>

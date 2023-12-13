@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="da">
 <head>
-    <title>Din Digitale Redningsvest</title>
-    <meta name="description" content="Digital Redningsvest - Gør det Nemt & Enkelt !">
+    <title>Abonnement</title>
+    <meta name="description" content="Valg af abonnement - Din Digitale Redningskrans">
     <?php include "include/head.php"; ?>
 </head>
 <!------------------------------------------------- Body -------------------------------------------------------------->

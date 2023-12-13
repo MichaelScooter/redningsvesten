@@ -36,8 +36,8 @@ export default class Dialog{
         this.dialog.innerHTML = `
             <div class="dialog_question">${this.questionText}</div>
             <div class="dialog-button-group">
-                 <button class="dialog-button--true bg-success text-white btn btn-lg">${this.trueButtonText}</button>       
-                 <button class="dialog-button--false bg-danger text-white btn btn-lg ms-2">${this.falseButtonText}</button>               
+                 <button class="dialog-button--true bg-success text-white border border-1 border-white btn btn-lg">${this.trueButtonText}</button>       
+                 <button class="dialog-button--false bg-danger text-white border border-1 border-white btn btn-lg ms-2">${this.falseButtonText}</button>               
             </div>
         `;
         this.trueButton = this.dialog.querySelector(".dialog-button--true");

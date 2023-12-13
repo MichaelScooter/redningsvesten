@@ -5,9 +5,9 @@ function minSikkerFunktion() {
     } else {
         txt = "Ok - Nu kan du bare vælge den abonnementstype du ønsker :-)";
     }
+
+    // Fjern event listeneren efter det første klik
+    document.querySelector('.sikker').removeEventListener('click', minSikkerFunktion);
 }
 
-document.querySelector('.sikker').addEventListener('click', function () {
-
-    minSikkerFunktion();
-});
+document.querySelector('.sikker').addEventListener('click', minSikkerFunktion);

@@ -2,8 +2,8 @@
 <html lang="da">
 <head>
 
-    <title>Din Digitale Redningsvest</title>
-    <meta name="description" content="Digital Redningsvest - Gør det Nemt & Enkelt !">
+    <title>Huskeliste</title>
+    <meta name="description" content="Huskeliste - Gør det Nemt & Enkelt !">
 
     <?php include "include/head.php"; ?>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
@@ -19,7 +19,7 @@
         <h1 class="pt-5">Huskeliste</h1>
         <p class="lead"> Hvis en opgave er udført og du ønsker den forbliver på listen, <br>så kan du klikke på den og den bliver grøn.</p>
 
-            <div class="bg-primary p-5">
+            <div class="bg-primary p-5 mt-3">
                 <div id="inputArea">
                     <input type="text" placeholder="Skriv her og tryk på 'Gem' knappen &rarr;">
                     <button><i class="fas fa-pencil-alt"></i>Gem</button>

@@ -45,6 +45,11 @@ h1, h2, h3, h4, h5, h6, p{
 	font-family: montserrat, sans-serif;
 }
 
+p{
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+}
+
 #logo{
 	content: url("../images/dame_brun_orange.png");
 	max-height: 60px;
@@ -106,6 +111,12 @@ h5{
 	padding-top: 70px;
 }
 
+dialog {
+	border-color: #F4442E;
+	background-color: #FFF8F0;
+	font-family: montserrat, sans-serif;
+}
+
 
 
 /* -- Start -Koden fra Codepen.io Tilmeldingssiden -- */
@@ -146,9 +157,6 @@ h5{
 	#basket-subtotal, #basket-total, .basket .quantity input[type=number]{
 		font-size:14px;
 	}
-
-
-
 	.hide {
 		display: none;
 	}
@@ -692,6 +700,8 @@ h5{
 		max-width: 500px;
 		border: none;
 		border-radius: 2px;
+		background-color: #0f152a !important;
+		border: solid 1px #F4442E;
 	}
 
 
@@ -704,6 +714,12 @@ h5{
 
 
 @media screen and (min-width: 769px) {
+
+	.websiteIconBoks .col-auto .col-lg-auto{
+		padding-left:0px;
+		padding-right:0px;
+		width:85px;
+	}
 
 	.vejrIcon{
 		max-width: 70px;
