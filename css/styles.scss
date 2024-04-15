@@ -10,27 +10,16 @@ $link-decoration: none;
 
 // 4. Include any default map overrides here
 $custom-colors: (
-				"primary": #3d0b02,
-				"secondary":#F4442E,
-				"farve3": #FFF8F0,
-				"farve4": #FFD8A9,
-				"farve5": #101010,
-				"farve6": #EEEEEE,
-				"farve7": #815749,
-				"googleBlue": #4285F4,
-				"googlerRed": #EA4335,
-				"googleYellow": #FBBC05,
-				"googleGreen": #34A853 ,
+				"primary": #8abf2c,
+				"secondary":#2f6b1a,
+				"farve1": #cdee77,
+				"farve2": #b4e639,
+				"farve3": #8abf2c,
+				"farve4": #2f6b1a,
+				"farve5": #143f17,
+
+
 );
-/* Syren farverne
-$custom-colors: (
-				"primary": #624973,
-				"secondary":#B099BF,
-				"farve3": #E5D0F2,
-				"farve4": #EADCF2,
-				"farve5": #101010,
-);
-*/
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
 

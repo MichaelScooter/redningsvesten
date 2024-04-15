@@ -3,7 +3,7 @@
 <head>
 
     <title>Betalingsside</title>
-    <meta name="description" content="Mandekrisecenter Foredrag/Arrangementer - Betaling">
+    <meta name="description" content="Mandekrisecenter - Betaling af Foredrag/Arrangementer">
 
     <?php include "include/head.php"; ?>
 
@@ -117,6 +117,5 @@
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
-</script>
 </body>
 </html>
