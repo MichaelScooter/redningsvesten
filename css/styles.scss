@@ -66,50 +66,6 @@ p{
 
 }
 
-.websiteIcon{
-	max-width: 60px;
-}
-
-
-
-.websiteIconBoks p{
-	font-size: 13px;
-}
-
-.vejrBeskrivelse{
-	font-size: 12px;
-}
-
-.vejrIcon{
-	max-width: 40px;
-}
-
-.vejrUgeDag{
-	font-size:14px;
-}
-
-.vejrTemp{
-	font-size:14px;
-}
-
-.tempBox{
-	font-weight: 300;
-}
-
-
-h5{
-	font-weight: 400;
-	font-size: 16px;
-}
-
-.overskriftByogUge{
-	font-size: 14px;
-}
-
-.googleSiden{
-	position:relative;
-	padding-top: 70px;
-}
 
 dialog {
 	border-color: #F4442E;
@@ -607,135 +563,12 @@ dialog {
 
 }
 
-/* -- Start -Koden huskeliste  --------------------------------------------- */
-
-.huskelisten{
-		max-width: 700px;
-		margin:0 auto;
-
-	#inputArea{
-		display: flex;
-	}
-
-	#inputArea input {
-		flex: 1 1 auto;
-		width: 100%;
-		border-radius: 5px;
-		padding: 15px;
-		border: solid 1px #3D0B02;
-	}
-	/* -- Ramme om skrive felt når det er aktivt  -- */
-	#inputArea input:focus {
-		outline-color: #F4442E;
-		outline-offset: -2px;
-	}
-
-	/* -- Gem knappen  -- */
-	#inputArea button {
-		flex: 0 1 50px;
-		cursor: pointer;
-		border: none;
-		padding: 15px 15px;
-		border-radius: 5px;
-		color: white;
-		background-color: #F4442E;
-		transition: all 0.2s ease;
-		margin-left: 5px;
-	}
-
-	#inputArea button:hover{
-		background-color: #815749;
-		color: white;
-	}
-
-	ul{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		padding: 0;
-	}
-
-	/* -- liste felterne  -- */
-	li {
-		cursor: pointer;
-		width: 100%;
-		font-weight: bold;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		list-style: none;
-		padding: 10px 20px;
-		border: 1px solid #3D0B02;
-		border-radius: 5px;
-		margin-bottom: 10px;
-		background: #FFF8F0;
-		transition: all 0.75s ease;
-	}
-
-	li:hover {
-		background: #815749;
-		color: white;
-	}
-
-	/* -- Hover Skraldespanden  -- */
-	li i:hover{
-		transition: all 0.2s ease;
-		color: #F4442E;
-	}
-
-	.done {
-		background: #54a20b !important;
-		border-color: white;
-		color: white;
-	}
-
-	.delete {
-		display: none;
-	}
-
-	dialog{
-		display: flex;
-		flex-direction: column;
-		width: calc(100% - 20px);
-		max-width: 500px;
-		border: none;
-		border-radius: 2px;
-		background-color: #0f152a !important;
-		border: solid 1px #F4442E;
-	}
-
-
-}
-
-
-
-
 /* -- Start - Michael @media --------------------------------------------- */
 
 
 @media screen and (min-width: 769px) {
 
-	.websiteIconBoks .col-auto .col-lg-auto{
-		padding-left:0px;
-		padding-right:0px;
-		width:85px;
-	}
 
-	.vejrIcon{
-		max-width: 70px;
-	}
-
-	.vejrUgeDag{
-		font-size:16px;
-	}
-
-	.vejrTemp{
-		font-size:16px;
-	}
-
-	.vejrBeskrivelse{
-		font-size: 14px;
-	}
 
 
 

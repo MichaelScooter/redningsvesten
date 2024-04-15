@@ -18,7 +18,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
 <html lang="da">
 <head>
     <title>Din Digitale Redningskrans</title>
-    <meta name="description" content="Din Digital Redningskrans - Gør det Nemt & Enkelt !">
+    <meta name="description" content="Digital Redningskrans - Gør det Nemt & Enkelt !">
     <?php include "include/head.php"; ?>
 </head>
 <body>
@@ -26,33 +26,29 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
 
 
 
-<div class="container-fluid hovedContainer min-vh-100 pt-4" style="background-image: url('images/wavebred.png'); background-size: contain; background-repeat: no-repeat; background-position:bottom">
-    <div class="pt-2">
-        <div class="row">
-            <div class="col-12 col-lg-10 ">
-                <div class="ps-lg-3 pt-lg-5">
+<div class="container-fluid hovedContainer min-vh-100 pt-lg-3">
+    <div class="pt-5">
+        <div class="row pt-4">
+            <div class="col-12 ">
+                <div class="ps-lg-3">
                     <div class="bg-white border border-1 border-white">
-                        <div class="row pt-lg-3 ">
-                            <div class="col-12 col-lg-4 ">
-                                <div class="p-lg-3 pt-lg-5">
+                        <div class="row pb-1">
+                            <div class="col-12 col-lg-3 pt-lg-5">
+                                <div class="ps-lg-2 pt-lg-2">
                                     <img src="images/brun_dame_lille.jpg" class="img-fluid heroImage">
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-8 ">
-                                <!----------- Tekst hero ----------------->
-                                <div class=" px-3 pt-lg-5">
-                                    <h1>Vigtige sider - Direkte adgang</h1>
-                                    <p class="lead">Hold dig flydende i det store Internet hav - Find Nemt & Hurtigt !</p>
-                                    <p class="pt-3"><span class="fw-medium">Undgå reklamebølger med <a href="abonnement.php" class="text-secondary fw-semibold text-decoration-underline">abonnement</a> til kun kr. 20/måned. <a href="abonnement.php" class="text-secondary fw-semibold">1 GRATIS prøvemåned.</a></span><br>Svøm uden forstyrrende annoncer, og få bonus med flere direkte adgange og udvidede vejrinformationer. <br>Plus, du støtte mig med en god kage til kaffen, mens jeg passer og vedligeholder din redningskrans 😊.</p>
+                            <div class="col-12 col-lg-9 pt-lg-3">
+                                <div class=" ps-lg-3 pt-lg-5">
+                                    <h1>Premium Abonnement</h1>
                                 </div>
-                                <!----------- Vejret ----------------->
-                                <div class="pt-lg-3">
-                                    <div class="p-3">
+                                <div class="">
+                                    <div class="">
                                         <div class="row">
                                             <div class="col-lg-3 align-items-center">
-                                                <div class="flex-lg-wrap align-items-center justify-content-center">
-                                                    <h5 class="pt-1 border-bottom border-1 border-primary fw-semibold">Vejret - <span class="overskriftByogUge">Vælg & Godkend</span></h5>
-                                                    <form action="" method="post" class="mt-3">
+                                                <div class="flex-lg-wrap align-items-center justify-content-center ps-lg-3">
+                                                    <h5 class="pt-1 border-bottom border-1 border-primary fw-semibold ">Vejret - <span class="overskriftByogUge">Vælg & Godkend</span></h5>
+                                                    <form action="" method="post" class="">
                                                         <div class="row">
                                                             <div class="col-8">
                                                                 <span class="overskriftByogUge">By:</span>
@@ -74,17 +70,22 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                                                     </form>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-9 p-3">
+                                            <div class="col-lg-9 ">
                                                 <div class="text-center align-items-center justify-content-evenly">
                                                     <div class="col-lg-auto pt-lg-0">
                                                         <div class="d-flex align-items-center justify-content-center">
                                                             <?php
                                                             foreach ($vejr as $v){
                                                                 ?>
-                                                                <div class="align-items-center justify-content-center mx-2">
+                                                                <div class="align-items-center justify-content-center mx-3 tempBox">
                                                                     <div><img src="uploads/<?php echo $v->vejrBilled; ?>" alt="vejr Billede" class="img-fluid vejrIcon"></div>
-                                                                    <div class="vejrUgeDag"><?php echo $v->vejrUgeDag;?></div>
-                                                                    <div class="vejrTemp"> <?php echo $v->vejrTemp;?>&deg; C</div>
+                                                                    <div class="vejrUgeDag fw-normal"><?php echo $v->vejrUgeDag;?></div>
+                                                                    <div class="vejrTemp fw-normal"> <?php echo $v->vejrTemp;?>&deg; C</div>
+                                                                    <div class="vejrBeskrivelse fw-normal"><?php echo $v->vejrBeskrivelse;?></div><br>
+                                                                    <div class="vejrMaxTemp">Max. <?php echo $v->vejrMaxTemp;?>&deg;</div>
+                                                                    <div class="vejrMinTemp">Min. <?php echo $v->vejrMinTemp;?>&deg;</div><br>
+                                                                    <div class="vejrUx">UV-indeks: <br><?php echo $v->vejrUx;?></div>
+                                                                    <div class="vejrRegn">Nedbør: <br><?php echo $v->vejrRegn;?> mm.</div>
 
                                                                 </div>
                                                                 <?php
@@ -102,12 +103,11 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                         </div>
                     </div>
                 </div>
-                <!----------- website ikoner ----------------->
 
-                <div class="pt-lg-5 mt-lg-5" >
-                    <div class="text-farve4 websiteIconBoks pt-3 pt-lg-5 ">
-                        <div class="row text-center align-items-center justify-content-evenly py-3  pt-lg-5">
-                            <div class="col-auto pt-lg-1 ">
+                <div class="mt-lg-4">
+                    <div class="text-farve4 websiteIconBoks pt-5 border-bottom border-1 border-white">
+                        <div class="row text-center align-items-center justify-content-evenly py-3 bg-primary pt-lg-4">
+                            <div class="col-auto pt-lg-0 ">
                                 <div class="d-flex- align-items-center justify-content-center">
                                     <h5 class="pt-1 ">Mail / Kalender</h5>
                                     <div class="row text-center align-items-center">
@@ -202,9 +202,9 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                             </div>
                             <div class="col-auto pt-lg-0">
                                 <div class="d-flex- align-items-center justify-content-center">
-                                    <h5 class="pt-1 pe-lg-3">Transport</h5>
+                                    <h5 class="pt-1">Transport</h5>
                                     <div class="row text-center align-items-center">
-                                        <div class="col-auto">
+                                        <div class="col-4 col-lg-auto">
                                             <div class="flex-lg-wrap align-items-center justify-content-center shadow">
                                                 <a href="https://www.rejsekort.dk/" target="_blank">
                                                     <img src="images/rejsekort.png" class="websiteIcon" alt="Alternativ tekst">
@@ -212,7 +212,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-auto">
+                                        <div class="col-4 col-lg-auto">
                                             <div class="flex-lg-wrap align-items-center justify-content-center shadow">
                                                 <a href="https://www.moviatrafik.dk/flexkunde/flextur/bestilling-af-flextur/?v=L0i92SKjs8U" target="_blank">
                                                     <img src="images/flextrafik.png" class="websiteIcon" alt="Alternativ tekst">
@@ -220,7 +220,7 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-auto">
+                                        <div class="col-4 col-lg-auto">
                                             <div class="flex-lg-wrap align-items-center justify-content-center shadow">
                                                 <a href="https://rejseplanen.dk/webapp/#!P|TP!histId|0!histKey|H574629" target="_blank">
                                                     <img src="images/rejseplanen.png" class="websiteIcon" alt="Alternativ tekst">
@@ -233,15 +233,136 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
                             </div>
                         </div>
 
+                        <div class="row text-center align-items-center justify-content-evenly py-3 bg-primary">
+                            <div class="col-auto pt-lg-0">
+                                <div class="d-flex- align-items-center justify-content-center">
+                                    <h5 class="pt-1">Sociale Medier</h5>
+                                    <div class="row text-center align-items-center">
+                                        <div class="col-4 col-lg-auto">
+                                            <div class="flex-lg-wrap align-items-center justify-content-center shadow">
+                                                <a href="https://www.facebook.com/" target="_blank">
+                                                    <img src="images/facebook.png" class="websiteIcon" alt="Alternativ tekst">
+                                                    <p class="text-white">Facebook</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-lg-auto">
+                                            <div class="flex-lg-wrap align-items-center justify-content-center shadow">
+                                                <a href="https://www.linkedin.com/feed/?trk=onboarding-landing" target="_blank">
+                                                    <img src="images/linkedin.png" class="websiteIcon" alt="Alternativ tekst">
+                                                    <p class="text-white">LinkedIn</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-lg-auto">
+                                            <div class="flex-lg-wrap align-items-center justify-content-center shadow">
+                                                <a href="https://www.instagram.com/" target="_blank">
+                                                    <img src="images/instagram.png" class="websiteIcon" alt="Alternativ tekst">
+                                                    <p class="text-white">Instagram</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto pt-lg-0">
+                                <div class="d-flex- align-items-center justify-content-center">
+                                    <h5 class="pt-1">Nyheder</h5>
+                                    <div class="row text-center align-items-center">
+                                        <div class="col-4 col-lg-auto">
+                                            <div class="flex-lg-wrap align-items-center justify-content-center shadow">
+                                                <a href="https://nyheder.tv2.dk/" target="_blank">
+                                                    <img src="images/tv2.png" class="websiteIcon" alt="Alternativ tekst">
+                                                    <p class="text-white">TV2</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-lg-auto">
+                                            <div class="flex-lg-wrap align-items-center justify-content-center shadow">
+                                                <a href="https://www.dr.dk/nyheder" target="_blank">
+                                                    <img src="images/dr.png" class="websiteIcon" alt="Alternativ tekst">
+                                                    <p class="text-white">DR</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-lg-auto">
+                                            <div class="flex-lg-wrap align-items-center justify-content-center shadow">
+                                                <a href="https://trafikkort.vejdirektoratet.dk/index.html" target="_blank">
+                                                    <img src="images/vejdirektoratet.png" class="websiteIcon" alt="Alternativ tekst">
+                                                    <p class="text-white">Trafik info</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto pt-lg-0">
+                                <div class="d-flex- align-items-center justify-content-center">
+                                    <h5 class="pt-1">Lydbøger</h5>
+                                    <div class="row text-center align-items-center">
+                                        <div class="col-4 col-lg-auto">
+                                            <div class="flex-lg-wrap align-items-center justify-content-center shadow">
+                                                <a href="https://mofibo.com/dk" target="_blank">
+                                                    <img src="images/mofibo.png" class="websiteIcon" alt="Alternativ tekst">
+                                                    <p class="text-white">Mofibo</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-lg-auto">
+                                            <div class="flex-lg-wrap align-items-center justify-content-center shadow">
+                                                <a href="https://www.saxo.com/dk" target="_blank">
+                                                    <img src="images/saxo.png" class="websiteIcon" alt="Alternativ tekst">
+                                                    <p class="text-white">Saxo</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-lg-auto">
+                                            <div class="flex-lg-wrap align-items-center justify-content-center shadow">
+                                                <a href="https://ereolen.dk/Generelt-PR-materiale" target="_blank">
+                                                    <img src="images/ereolen.png" class="websiteIcon" alt="Alternativ tekst">
+                                                    <p class="text-white">eReolen</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto pt-lg-0">
+                                <div class="d-flex- align-items-center justify-content-center">
+                                    <h5 class="pt-1">Underholdning</h5>
+                                    <div class="row text-center align-items-center">
+                                        <div class="col-4 col-lg-auto">
+                                            <div class="flex-lg-wrap align-items-center justify-content-center shadow">
+                                                <a href="https://www.dr.dk/drtv/tv-guide" target="_blank">
+                                                    <img src="images/tvguiden.png" class="websiteIcon " alt="Alternativ tekst">
+                                                    <p class="text-white">TV-Guiden</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-lg-auto">
+                                            <div class="flex-lg-wrap align-items-center justify-content-center shadow">
+                                                <a href="https://samvirke.dk/" target="_blank">
+                                                    <img src="images/samvirke.png" class="websiteIcon" alt="Alternativ tekst">
+                                                    <p class="text-white">Samvirke</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-lg-auto">
+                                            <div class="flex-lg-wrap align-items-center justify-content-center shadow">
+                                                <a href="https://https://www.aeldresagen.dk/" target="_blank">
+                                                    <img src="images/aeldresagen.png" class="websiteIcon" alt="Alternativ tekst">
+                                                    <p class="text-white">Ældresagen</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
-
             </div>
-            <div class="col-12 col-lg-2 d-flex justify-content-center justify-content-lg-start bg-white">
-                <img src="images/annoncer.png" class="img-fluid mx-auto mx-lg-0 ps-lg-1 pt-lg-5">
-            </div>
-
         </div>
 
     </div>

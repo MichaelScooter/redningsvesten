@@ -3,7 +3,7 @@
 <head>
 
     <title>Betalingsside</title>
-    <meta name="description" content="Digital Redningskrans - Betaling">
+    <meta name="description" content="Mandekrisecenter Foredrag/Arrangementer - Betaling">
 
     <?php include "include/head.php"; ?>
 
@@ -17,7 +17,7 @@
         <div class="text-center pt-lg-5">
             <div class="d-flex justify-content-center mt-5" aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="Tilmelding.php" class="text-primary">1. Vælg abonnement</a></li>
+                    <li class="breadcrumb-item"><a href="Tilmelding.php" class="text-primary">1. Vælg foredrag</a></li>
                     <li class="breadcrumb-item active" aria-current="page"><span class="text-decoration-underline">2. Betaling</span></li>
 
                 </ol>

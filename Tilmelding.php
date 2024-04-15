@@ -3,7 +3,7 @@
 <head>
 
     <title>Tilmelding</title>
-    <meta name="description" content="Tilmelding - Din Digitale Redningskrans">
+    <meta name="description" content="Tilmelding Arrangement - Mandekrisecenter">
 
     <?php include "include/head.php"; ?>
 
@@ -19,7 +19,7 @@
 <div class="container pt-lg-5 justify-content-center">
     <div class="d-flex justify-content-center mt-5" aria-label="breadcrumb">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item active" aria-current="page"><span class="text-decoration-underline"> 1. Vælg abonnement</span></li>
+            <li class="breadcrumb-item active" aria-current="page"><span class="text-decoration-underline"> 1. Vælg foredrag</span></li>
             <li class="breadcrumb-item"><a href="betaling.php" class="text-primary">2. Betaling</a></li>
         </ol>
     </div>
@@ -27,7 +27,7 @@
     <div class="row">
         <div class="text-center">
             <h2 class="pt-lg-2">Læg i kurven</h2>
-            <p class="lead text-secondary fw-normal">Vælg abonnement - (årligt / månedligt)</p>
+            <p class="lead text-secondary fw-normal">Vælg arrangement</p>
             <p>Når du har gennemført købet, vil du øjeblikkeligt få flere adgange og vejrinformation <br>
                Du modtager en kvittering på e-mail. </p>
         </div>
@@ -52,11 +52,7 @@
                                 <button class="promo-code-cta  btn btn-primary text-white">Indløs</button>
                             </div>
                         </div>
-
                     </div>
-
-
-
                 </div>
             </div>
 
