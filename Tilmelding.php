@@ -2,8 +2,8 @@
 <html lang="da">
 <head>
 
-    <title>Tilmelding</title>
-    <meta name="description" content="Tilmelding Arrangement - Mandekrisecenter">
+    <title>Mandekrisecenter Lolland - Tilmelding af foredrag & Arrangementer</title>
+    <meta name="description" content="Mandekrisecenter Lolland - Tilmelding af foredrag & Arrangementer">
 
     <?php include "include/head.php"; ?>
 
@@ -12,138 +12,209 @@
 <body>
 <?php include "include/navigation.php"; ?>
 
-<!-- Her skal sidens indhold ligge -->
-
-
-
-<div class="container pt-lg-5 justify-content-center">
-    <div class="d-flex justify-content-center mt-5" aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item active" aria-current="page"><span class="text-decoration-underline"> 1. Vælg foredrag</span></li>
-            <li class="breadcrumb-item"><a href="betaling.php" class="text-primary">2. Betaling</a></li>
-        </ol>
-    </div>
-
+<div class="container">
     <div class="row">
         <div class="text-center">
-            <h2 class="pt-lg-2">Læg i kurven</h2>
-            <p class="lead text-secondary fw-normal">Vælg arrangement</p>
-            <p>Når du har gennemført købet, vil du øjeblikkeligt få flere adgange og vejrinformation <br>
-               Du modtager en kvittering på e-mail. </p>
+            <h5 class="text-primary">Tilmelding</h5>
+            <h2>Køb af billetter til events</h2>
+            <p class="lead">På betalingssiden skal du indtaste din e-mailadresse.</p>
+            <p>Når du har gennemført købet, vil du øjeblikkeligt modtage de købte billetter via e-mail. <br>
+                Vigtigt at du indtaster din korrekte e-mailadresse for at modtage billetterne efter købet.</p>
         </div>
     </div>
-
-
 </div>
 
 
-<main class="">
 
-    <div class="container tilmeldingsSiden">
 
-            <div class="row   pt-lg-5">
-                <div class="text-start">
-                    <!-- Rabat kode  -->
-                    <div class="">
-                        <div>
-                            <div class="basket-module">
-                                <label for="promo-code">Indtast rabat kode: (Få en Gratis prøve måned = Skriv ordet: Gratis)</label>
-                                <input id="promo-code" type="text" name="promo-code" maxlength="6" class="promo-code-field">
-                                <button class="promo-code-cta  btn btn-primary text-white">Indløs</button>
-                            </div>
-                        </div>
-                    </div>
+
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6 basket pt-lg-5">
+                <div class="basket-module">
+                    <label for="promo-code">Indtast rabat kode:</label>
+                    <input id="promo-code" type="text" name="promo-code" maxlength="5" class="promo-code-field">
+                    <button class="promo-code-cta  btn btn-farve5 text-white">Indløs</button>
+
                 </div>
-            </div>
-
-        <!-- Samlet options  -->
-        <div>
-            <!-- Abonnements options  -->
-            <div class="pt-3">
-                <label for="abonnements">Vælg abonnementstype:</label>
-
-                <select id="abonnements" onchange="visIndhold()">
-                    <option value="1aarIndhold" selected>1 års abonnement</option>
-                    <option value="1maanedIndhold">Abonnement pr. måned</option>
-                </select>
-            </div>
-            <!-- Svar muligheder options  -->
-            <div class="">
                 <div class="basket-labels">
                     <ul>
-                        <li class="item item-heading">Abonnementstype</li>
+                        <li class="item item-heading">Event</li>
                         <li class="price">Pris</li>
                         <li class="quantity">Antal</li>
                         <li class="subtotal">Subtotal</li>
                     </ul>
                 </div>
-                <div id="1aarIndhold" class="1AarIndhold">
-                    <div class="basket-product">
-                        <div class="item">
-                            <div class="product-details">
-                                <h6>Abonnement</h6>
-                                <p><strong>1 år</strong></p>
-                                <p class="text-secondary fw-semibold">Spar over 15%</p>
-                            </div>
+                <div class="basket-product">
+                    <div class="item">
+                        <div class="product-image">
+                            <img src="images/oel-smagning-vinbaren.webp" alt="Placholder Image 2" class="product-frame">
                         </div>
-                        <div class="price">200.00</div>
-                        <div class="quantity">
-                            <input type="number" value="0" min="0" class="quantity-field">
+                        <div class="product-details">
+                            <h6>1 x billet</h6>
+                            <p><strong>Øl Smagning</strong></p>
+                            <p>Lørdag d. 24. juni kl. 20.00</p>
                         </div>
-                        <div class="subtotal">0.00</div>
                     </div>
+                    <div class="price">195.00</div>
+                    <div class="quantity">
+                        <input type="number" value="0" min="0" class="quantity-field">
+                    </div>
+                    <div class="subtotal">0.00</div>
+                </div>
+                <div class="basket-product">
+                    <div class="item">
+                        <div class="product-image">
+                            <img src="images/kagebuffet-vinbaren.webp" alt="Placholder Image 2" class="product-frame">
+                        </div>
+                        <div class="product-details">
+                            <h6>1 x billet</h6>
+                            <p><strong>Sønderjysk Kagebord</strong></p>
+                            <p>Lørdag d. 8. juli kl. 16.00</p>
+                        </div>
+                    </div>
+                    <div class="price">245.00</div>
+                    <div class="quantity">
+                        <input type="number" value="0" min="0" class="quantity-field">
+                    </div>
+                    <div class="subtotal">0.00</div>
+                </div>
+                <div class="basket-product">
+                    <div class="item">
+                        <div class="product-image">
+                            <img src="images/gin-smagning-vinbaren.webp" alt="Placholder Image 2" class="product-frame">
+                        </div>
+                        <div class="product-details">
+                            <h6>1 x billet</h6>
+                            <p><strong>Gin Smagning</strong></p>
+                            <p>Lørdag d. 22. juli kl. 20.00</p>
+                        </div>
+                    </div>
+                    <div class="price">245.00</div>
+                    <div class="quantity">
+                        <input type="number" value="0" min="0" class="quantity-field">
+                    </div>
+                    <div class="subtotal">0.00</div>
+
+                </div>
+                <div class="basket-product">
+                    <div class="item">
+                        <div class="product-image">
+                            <img src="images/jazz-koncert-vinbaren.webp" alt="Placholder Image 2" class="product-frame">
+                        </div>
+                        <div class="product-details">
+                            <h6>1 x billet</h6>
+                            <p><strong>Jazz Koncert</strong></p>
+                            <p>Lørdag d. 29. juli kl. 20.00</p>
+                        </div>
+                    </div>
+                    <div class="price">295.00</div>
+                    <div class="quantity">
+                        <input type="number" value="0" min="0" class="quantity-field">
+                    </div>
+                    <div class="subtotal">0.00</div>
+                </div>
+                <div class="basket-product">
+                    <div class="item">
+                        <div class="product-image">
+                            <img src="images/sankt_hans.webp" alt="Placholder Image 2" class="product-frame">
+                        </div>
+                        <div class="product-details">
+                            <h6>1 x billet</h6>
+                            <p><strong>Sankt Hans</strong></p>
+                            <p>Lørdag d. 24. juni kl. 18.00</p>
+                        </div>
+                    </div>
+                    <div class="price">195.00</div>
+                    <div class="quantity">
+                        <input type="number" value="0" min="0" class="quantity-field">
+                    </div>
+                    <div class="subtotal">0.00</div>
+                </div>
+                <div class="basket-product">
+                    <div class="item">
+                        <div class="product-image">
+                            <img src="images/tour_de_france_storskaerm.webp" alt="Placholder Image 2" class="product-frame">
+                        </div>
+                        <div class="product-details">
+                            <h6>1 x billet</h6>
+                            <p><strong>Tor de France på storskærm</strong></p>
+                            <p>Lørdag d. 1. Juli kl. 14.00</p>
+                        </div>
+                    </div>
+                    <div class="price">145.00</div>
+                    <div class="quantity">
+                        <input type="number" value="0" min="0" class="quantity-field">
+                    </div>
+                    <div class="subtotal">0.00</div>
+                </div>
+                <div class="basket-product">
+                    <div class="item">
+                        <div class="product-image">
+                            <img src="images/lf_mesterskaber_maveplask.webp" alt="Placholder Image 2" class="product-frame">
+                        </div>
+                        <div class="product-details">
+                            <h6>1 x billet</h6>
+                            <p><strong>LF Mesterskaber i maveplask</strong></p>
+                            <p>Lørdag d. 14. Juli kl. 16.00</p>
+                        </div>
+                    </div>
+                    <div class="price">95.00</div>
+                    <div class="quantity">
+                        <input type="number" value="0" min="0" class="quantity-field">
+                    </div>
+                    <div class="subtotal">0.00</div>
+                </div>
+                <div class="basket-product">
+                    <div class="item">
+                        <div class="product-image">
+                            <img src="images/film_event_storskaem.webp" alt="Placholder Image 2" class="product-frame">
+                        </div>
+                        <div class="product-details">
+                            <h6>1 x billet</h6>
+                            <p><strong>Film Storskærm</strong></p>
+                            <p>Lørdag d. 5. August kl. 20.00</p>
+                        </div>
+                    </div>
+                    <div class="price">195.00</div>
+                    <div class="quantity">
+                        <input type="number" value="0" min="0" class="quantity-field">
+                    </div>
+                    <div class="subtotal">0.00</div>
                 </div>
 
-                <div id="1maanedIndhold" class="1MaanedIndhold">
-                    <div class="basket-product">
-                        <div class="item">
-                            <div class="product-details">
-                                <h6>Abonnement</h6>
-                                <p><strong>Pr. måned</strong></p>
-                            </div>
+            </div>
+
+            <aside class="col-12 col-lg-6 pt-5">
+                <div class="summary">
+                    <div class="summary-total-items"><span class="total-items"></span> Billetter</div>
+                    <div class="summary-subtotal">
+                        <div class="subtotal-title">Subtotal</div>
+                        <div class="subtotal-value final-value" id="basket-subtotal">0.00</div>
+                        <div class="summary-promo hide">
+                            <div class="promo-title">Rabat</div>
+                            <div class="promo-value final-value" id="basket-promo"></div>
                         </div>
-                        <div class="price">20.00</div>
-                        <div class="quantity">
-                            <input type="number" value="0" min="0" class="quantity-field sikker">
-                        </div>
-                        <div class="subtotal">0.00</div>
+                    </div>
+
+                    <div class="summary-total">
+                        <div class="total-title">Total</div>
+                        <div class="total-value final-value" id="basket-total">0.00</div>
+                    </div>
+                    <div class="summary-checkout">
+                        <a href="betaling.php" class="checkout-cta btn btn-farve5 text-white "style="font-family: montserrat">Gå til sikker betaling</a>
                     </div>
                 </div>
-            </div>
+            </aside>
         </div>
-
-        <!-- Total Beløb  -->
-        <aside class="pt-lg-5">
-            <div class="summary">
-                <div class="summary-total-items"><span class="total-items"></span> Abonnement</div>
-                <div class="summary-subtotal">
-                    <div class="subtotal-title">Subtotal</div>
-                    <div class="subtotal-value final-value" id="basket-subtotal">0.00</div>
-                    <div class="summary-promo hide">
-                        <div class="promo-title">Rabat</div>
-                        <div class="promo-value final-value" id="basket-promo"></div>
-                    </div>
-                </div>
-
-                <div class="summary-total">
-                    <div class="total-title">Total</div>
-                    <div class="total-value final-value" id="basket-total">0.00</div>
-                </div>
-                <div class="summary-checkout">
-                    <a href="betaling.php" class="checkout-cta btn btn-success text-white">Gå til sikker betaling</a>
-                </div>
-            </div>
-        </aside>
     </div>
 </main>
 
-
-
+<!------------------------------------------------- Footer ------------------------------------------------------------>
 <?php include "include/footer.php"; ?>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/abonnementsType.js"></script>
-<script src="js/sikker.js"></script>
 
 <!-- Tilmeldingsside -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -169,10 +240,10 @@
     $(".promo-code-cta").click(function () {
         promoCode = $("#promo-code").val();
 
-        if (promoCode == "gratis" || promoCode == "Gratis" || promoCode == "GRATIS") {
-            //If promoPrice has no value, set it as 10 for the 10OFF promocode - Michael Har ændret til gratis
+        if (promoCode == "ven" || promoCode == "ven") {
+            //If promoPrice has no value, set it as 10 for the 10OFF promocode - Michael Har ændret til VEN
             if (!promoPrice) {
-                promoPrice = 20;
+                promoPrice = 100;
             } else if (promoCode) {
                 promoPrice = promoPrice * 1;
             }
@@ -273,7 +344,7 @@
         });
     }
 </script>
+
+
 </body>
 </html>
-
-

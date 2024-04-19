@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<link rel="apple-touch-icon" sizes="180x180" href="http://mpportfolio.dk/redningsvesten/icons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://mpportfolio.dk/redningsvesten/cons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="http://mpportfolio.dk/redningsvesten/icons/favicon-16x16.png">
-<link rel="manifest" href="http://mpportfolio.dk/redningsvesten/icons/site.webmanifest">
+<link rel="apple-touch-icon" sizes="180x180" href="http://mpportfolio.dk/mandekrisecenter/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://mpportfolio.dk/mandekrisecenter/cons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://mpportfolio.dk/mandekrisecenter/icons/favicon-16x16.png">
+<link rel="manifest" href="http://mpportfolio.dk/mandekrisecenter/icons/site.webmanifest">
