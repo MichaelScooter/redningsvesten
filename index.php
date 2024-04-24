@@ -1,19 +1,3 @@
-<?php
-require "settings/init.php";
-
-// Check if the form is submitted
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $vejrBy = (!empty($_POST["vejrBy"])) ? $_POST["vejrBy"] : "København";
-    $vejrUgeNr = (!empty($_POST["vejrUgeNr"])) ? $_POST["vejrUgeNr"] : "50";
-} else {
-    // If the form is not submitted, use default values
-    $vejrBy = "København";
-    $vejrUgeNr = "50";
-}
-
-$vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vejrUgeNr", [":vejrBy" => $vejrBy, ":vejrUgeNr" => $vejrUgeNr]);
-?>
-
 <!DOCTYPE html>
 <html lang="da">
 <head>
@@ -32,9 +16,9 @@ $vejr = $db->sql("SELECT * FROM vejr WHERE vejrBy = :vejrBy AND vejrUgeNr = :vej
             <img src="images/forside-personer.jpg" alt="Oplev enestående vinoplevelser på Vinbaren Vinoteque" class="w-100 d-none d-lg-block">
             <div class="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
                 <div class="text-center row pt-3 pt-lg-5">
-                    <h1 class="text-white">Vinoteque Marittima
+                    <h1 class="text-white">Bliv Fri af volden - Få hjælp nu !
                     </h1>
-                    <p class="lead text-white px-3 px-lg-0">Byder på et stort udvalg i vine, øl, drinks, kaffe og the.</p>
+                    <p class="lead text-white px-3 px-lg-0">gfgfgf gfgf fgfg</p>
                     <div>
                         <a href=events.php" class="btn btn-primary text-white ms-lg-2">Events</a>
                         <a href="kontakt.php" class="btn btn-secondary text-white ms-lg-2">Kontakt os</a>

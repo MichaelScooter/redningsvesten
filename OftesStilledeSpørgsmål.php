@@ -12,7 +12,7 @@
 <body>
 <?php include "include/navigation.php"; ?>
 
-<!-- punktliste sektion ----------------------------------------------------------------------------------------------------->
+<!-- 1. sektion ----------------------------------------------------------------------------------------------------->
 <div class="container-fluid bg-farve3">
     <div class="container py-5">
         <div class="row pt-2 pt-lg-5">

@@ -19,7 +19,7 @@
             <div class="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center overlay">
                 <div class="text-center text-white row pt-3 pt-lg-5">
                     <h1>Kontakt</h1>
-                    <p class="lead">Mandekrisecenter Lolland</p>
+                    <p class="lead">fhfhf jkjlkl ælælæ</p>
                 </div>
             </div>
         </div>

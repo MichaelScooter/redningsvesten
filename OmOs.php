@@ -16,11 +16,11 @@
 <div class="container-fluid g-0">
     <div>
         <div class="position-relative">
-            <img src="images/vinbar_vinoteque.webp" alt="Dyk ned i Vinoteques historie og kulturelle arv gennem tiderne" class="w-100">
+            <img src="images/forside-personer-lav.jpg" alt="Om Mandekrisecenteret Lolland og vejen hertil" class="w-100">
             <div class="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center overlay">
                 <div class="text-center row pt-3 pt-lg-5">
-                    <h1 class="text-white">Vinoteque Marittima</h1>
-                    <p class="lead text-white">Historien om skibet og vinbaren</p>
+                    <h1 class="text-white">Om os</h1>
+                    <p class="lead text-white">gfgfgfgfg gfgdf hfhghg</p>
                 </div>
             </div>
         </div>
@@ -33,7 +33,7 @@
         <div class="row pt-2 pt-lg-5">
             <div>
                 <h2 class="text-farve5">Mandekrisecenter Lolland</h2>
-                <p class="lead">– et krisecenter for mænd</p>
+                <p class="lead">– Et støttende og hjælpende tilflugtssted</p>
 
                 <hr>
 
@@ -84,7 +84,7 @@
                             <p class="text-primary pt-3 lead fw-medium">Tabubelagt emne</p>
                             <p class="pt-3">Vold mod mænd forbliver et stort og meget tabubelagt emne, som mange har svært ved at håndtere. Omverdenen har ofte svært ved at forestille sig, hvad der sker, hvordan det foregår, eller hvorfor manden bliver i situationen. </p>
                             <p class="pt-3">På Mandekrisecenter Lolland møder vi dagligt mænd, der deler deres historier om fysisk og psykisk vold i nære relationer. Nogle af dem ønsker at dele deres erfaringer, fordi de håber, at det kan inspirere andre til at søge hjælp. Vi ser det som en stor modig handling og et tegn på omsorg for andre, når disse mænd vælger at dele deres svære livshistorier. </p>
-                            <p class="pt-3">Vi håber, at I vil sende masser af støttende tanker til de mænd, der deler deres oplevelser på video – hvorfor de endte på Mandekrisecenteret, hvordan livet er her, og deres tanker om fremtiden.</p>
+                            <p class="pt-3">Vi håber, at I vil sende masser af støttende tanker til de mænd, der deler deres oplevelser på videoerne herunder – hvorfor de endte på Mandekrisecenteret, hvordan livet er her, og deres tanker om fremtiden.</p>
                         </div>
                     </div>
                 </div>
