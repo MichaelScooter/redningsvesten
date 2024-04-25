@@ -16,7 +16,7 @@
     <div>
         <div class="position-relative">
             <img src="images/forside-personer-lav.jpg" alt="Kontakt Vinoteque for at få svar på spørgsmål eller bestille en unik oplevelse" class="w-100">
-            <div class="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center overlay">
+            <div class="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
                 <div class="text-center text-white row pt-3 pt-lg-5">
                     <h1>Kontakt</h1>
                     <p class="lead">fhfhf jkjlkl ælælæ</p>

@@ -18,7 +18,7 @@
         <div class="row pt-2 pt-lg-5">
             <div>
                 <h2 class="text-farve5">Få svar på dine spørgsmål - Nemt & Hurtigt !</h2>
-                <p class="lead">Finder du ikke svar på dit spørgsmål, så <a href="kontakt.php">skriv</a> eller <a href="tel:+4540792019">ring</a> til os på 40 79 20 19 til os.</p>
+                <p class="lead">Finder du ikke svar på dit spørgsmål, så <a href="kontakt.php">skriv</a> eller <a href="tel:+4540792019">ring</a> til os på 40 79 20 19</p>
 
                 <hr>
 

@@ -116,7 +116,19 @@ dialog {
 }
 
 
+/* -- Events siden -- */
+.eventCardTitle{
+	font-size: 20px;
+}
 
+/* -- Enkelt Event siden -- */
+.eventTitel {
+	padding-left: 0px;
+}
+
+.eventLead {
+	padding-left: 0px;
+}
 
 /* -- Start -Koden fra Codepen.io Tilmeldingssiden -- */
 
@@ -124,7 +136,7 @@ img,
 .basket-module,
 .basket-labels,
 .basket-product {
-	width: 100%;
+	width: 90%;
 }
 
 input,
@@ -457,6 +469,13 @@ aside {
 	.summary {
 		margin-top: 1.25rem;
 		position: relative;
+	}
+
+	img,
+	.basket-module,
+	.basket-labels,
+	.basket-product {
+		width: 80%;
 	}
 }
 

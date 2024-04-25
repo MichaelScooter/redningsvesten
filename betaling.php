@@ -12,21 +12,46 @@
 <body>
 <?php include "include/navigation.php"; ?>
 
-<div class="container vh-100">
-    <div class="row">
-        <div class="text-center pt-lg-2">
-            <div class="d-flex justify-content-center mt-5" aria-label="breadcrumb">
+<div class="container-fluid bg-farve3">
+    <div class="container py-5">
+        <div class="row pt-0 pt-lg-3 ">
+            <div class="d-flex justify-content-center" aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="Tilmelding.php" class="text-primary">1. Vælg foredrag</a></li>
+                    <li class="breadcrumb-item"><a href="Tilmelding.php" class="text-primary">1. Køb billetter</a></li>
                     <li class="breadcrumb-item active" aria-current="page"><span class="text-decoration-underline">2. Betaling</span></li>
-
                 </ol>
             </div>
-            <h2 class="text-primary">Betaling</h2>
-            <p class="lead text-secondary fw-medium">Vi bruger sikker betaling</p>
-            <p>Vi bruger krypteringsteknologi til at beskytte dine betalingsoplysninger. <br>Dermed at du sikret, at dine oplysninger ikke kan ses af andre end os. </p>
+            <div>
+                <h2 class="text-farve5">Betaling</h2>
+                <p class="lead">Vi bruger sikker betaling</p>
+
+                <hr>
+
+                <!-- Indledningstekst START -------------------------------------------------------------------------------------->
+                <div class="row p-0 pt-4">
+                    <div class="col-lg-8">
+
+                        <div class="pt-3 pt-lg-0 ">
+                            <p>Vi bruger krypteringsteknologi til at beskytte dine betalingsoplysninger. <br>Dermed at du sikret, at dine oplysninger ikke kan ses af andre end os. </p>
+                            <p>Hvis du får brug for hjælp: <a href="kontakt.php">skriv</a> eller <a href="tel:+4540792019">ring</a> til os på 40 79 20 19</p>
+                            <p class="text-primary pt-3 lead fw-medium">Billetter - Vælg forfra</p>
+                            <p class="pt-3">Hvis du ønsker at foretage ændringer i dit valg af billetter, så kan du gå tilbage ved at trykket på knappen: <a href="Tilmelding.php" class="text-black">"1. Køb billetter" øverst på denne side.</a> </p>
+                        </div>
+                    </div>
+
+                    <!-- Billede -->
+                    <div class="col-lg-3 d-flex justify-content-center">
+                        <img src="images/billet.svg" alt="Mandekrisecenter Lollands svar på oftest stillede spørgsmål." class=" ps-lg-5 px-lg-3 w-100">
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </div>
+</div>
+<div class="container pb-5">
+
     <div class="pt-4 betalingsSiden mx-lg-5">
         <div class="card-body pt-5 pt-lg-0">
             <div class="d-flex justify-content-center">

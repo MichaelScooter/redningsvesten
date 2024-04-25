@@ -1,3 +1,12 @@
+<?php
+require "settings/init.php";
+
+// Hent alle arrangementer som standard
+$events = $db->sql("SELECT * FROM events");
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="da">
 <head>
@@ -12,26 +21,53 @@
 <body>
 <?php include "include/navigation.php"; ?>
 
-<div class="container">
-    <div class="row">
-        <div class="text-center">
-            <h5 class="text-primary">Tilmelding</h5>
-            <h2>Køb af billetter til events</h2>
-            <p class="lead">På betalingssiden skal du indtaste din e-mailadresse.</p>
-            <p>Når du har gennemført købet, vil du øjeblikkeligt modtage de købte billetter via e-mail. <br>
-                Vigtigt at du indtaster din korrekte e-mailadresse for at modtage billetterne efter købet.</p>
+<!-- 1. sektion ----------------------------------------------------------------------------------------------------->
+<div class="container-fluid bg-farve3">
+    <div class="container py-5">
+        <div class="row pt-2 ">
+            <div class="d-flex justify-content-center mt-5" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page"><span class="text-decoration-underline">1. Køb billetter</span></li>
+                    <li class="breadcrumb-item"><a href="betaling.php" class="text-primary">2. Betaling</a></li>
+                </ol>
+            </div>
+            <div>
+                <h2 class="text-farve5">Køb Billetter</h2>
+                <p class="lead">Når du har gennemført købet, vil du øjeblikkeligt modtage de købte billetter via e-mail.</p>
+
+                <hr>
+
+                <!-- Indledningstekst START -------------------------------------------------------------------------------------->
+                <div class="row p-0 pt-4">
+                    <div class="col-lg-8">
+
+                        <div class="pt-3 pt-lg-0 ">
+                            <p>På betalingssiden skal du indtaste din e-mailadresse og du vil modtage dine billetter øjeblikkeligt.</p>
+                            <p>Det er derfor vigtigt, at du indtaster din korrekte e-mailadresse for at modtage billetterne efter købet.</p>
+                            <p>Hvis du får brug for hjælp: <a href="kontakt.php">skriv</a> eller <a href="tel:+4540792019">ring</a> til os på 40 79 20 19</p>
+                            <p class="text-primary pt-3 lead fw-medium">Rabat kode</p>
+                            <p class="pt-3">Hvis du har modtaget en rabatkode, så indtaster du bare den og trykker på indløs knappen, så bliver rabatten modregnet automatisk.</p>
+
+                        </div>
+                    </div>
+
+                    <!-- Billede -->
+                    <div class="col-lg-3 d-flex justify-content-center">
+                        <img src="images/billet.svg" alt="Mandekrisecenter Lollands svar på oftest stillede spørgsmål." class=" ps-lg-5 px-lg-3 w-100">
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </div>
 </div>
 
 
-
-
-
 <main>
-    <div class="container">
+    <div class="ps-3 ps-lg-0">
         <div class="row">
-            <div class="col-12 col-lg-6 basket pt-lg-5">
+            <div class="col-12 col-lg-6 basket">
                 <div class="basket-module">
                     <label for="promo-code">Indtast rabat kode:</label>
                     <input id="promo-code" type="text" name="promo-code" maxlength="5" class="promo-code-field">
@@ -46,143 +82,36 @@
                         <li class="subtotal">Subtotal</li>
                     </ul>
                 </div>
+
+                <!-- Events -->
+                <div>
+                <?php
+                foreach ($events as $event){
+                ?>
                 <div class="basket-product">
                     <div class="item">
                         <div class="product-image">
-                            <img src="images/oel-smagning-vinbaren.webp" alt="Placholder Image 2" class="product-frame">
+                            <img src="uploads/<?php echo $event->eventsIcon; ?>" alt="Placholder Image 2" class="product-frame">
                         </div>
                         <div class="product-details">
                             <h6>1 x billet</h6>
-                            <p><strong>Øl Smagning</strong></p>
-                            <p>Lørdag d. 24. juni kl. 20.00</p>
+                            <p><strong><?php echo $event->eventsTitel;?></strong></p>
+                            <p><?php echo $event->eventsDag; ?> <?php echo $event->eventsDato; ?>. <?php echo $event->eventsMdr; ?></p>
+                            <p>kl. <?php echo $event->eventsTid; ?></p>
                         </div>
                     </div>
-                    <div class="price">195.00</div>
-                    <div class="quantity">
-                        <input type="number" value="0" min="0" class="quantity-field">
-                    </div>
-                    <div class="subtotal">0.00</div>
-                </div>
-                <div class="basket-product">
-                    <div class="item">
-                        <div class="product-image">
-                            <img src="images/kagebuffet-vinbaren.webp" alt="Placholder Image 2" class="product-frame">
-                        </div>
-                        <div class="product-details">
-                            <h6>1 x billet</h6>
-                            <p><strong>Sønderjysk Kagebord</strong></p>
-                            <p>Lørdag d. 8. juli kl. 16.00</p>
-                        </div>
-                    </div>
-                    <div class="price">245.00</div>
-                    <div class="quantity">
-                        <input type="number" value="0" min="0" class="quantity-field">
-                    </div>
-                    <div class="subtotal">0.00</div>
-                </div>
-                <div class="basket-product">
-                    <div class="item">
-                        <div class="product-image">
-                            <img src="images/gin-smagning-vinbaren.webp" alt="Placholder Image 2" class="product-frame">
-                        </div>
-                        <div class="product-details">
-                            <h6>1 x billet</h6>
-                            <p><strong>Gin Smagning</strong></p>
-                            <p>Lørdag d. 22. juli kl. 20.00</p>
-                        </div>
-                    </div>
-                    <div class="price">245.00</div>
+                    <div class="price"><?php echo $event->eventsPris;?></div>
                     <div class="quantity">
                         <input type="number" value="0" min="0" class="quantity-field">
                     </div>
                     <div class="subtotal">0.00</div>
 
                 </div>
-                <div class="basket-product">
-                    <div class="item">
-                        <div class="product-image">
-                            <img src="images/jazz-koncert-vinbaren.webp" alt="Placholder Image 2" class="product-frame">
-                        </div>
-                        <div class="product-details">
-                            <h6>1 x billet</h6>
-                            <p><strong>Jazz Koncert</strong></p>
-                            <p>Lørdag d. 29. juli kl. 20.00</p>
-                        </div>
-                    </div>
-                    <div class="price">295.00</div>
-                    <div class="quantity">
-                        <input type="number" value="0" min="0" class="quantity-field">
-                    </div>
-                    <div class="subtotal">0.00</div>
+                <?php } ?>
                 </div>
-                <div class="basket-product">
-                    <div class="item">
-                        <div class="product-image">
-                            <img src="images/sankt_hans.webp" alt="Placholder Image 2" class="product-frame">
-                        </div>
-                        <div class="product-details">
-                            <h6>1 x billet</h6>
-                            <p><strong>Sankt Hans</strong></p>
-                            <p>Lørdag d. 24. juni kl. 18.00</p>
-                        </div>
-                    </div>
-                    <div class="price">195.00</div>
-                    <div class="quantity">
-                        <input type="number" value="0" min="0" class="quantity-field">
-                    </div>
-                    <div class="subtotal">0.00</div>
-                </div>
-                <div class="basket-product">
-                    <div class="item">
-                        <div class="product-image">
-                            <img src="images/tour_de_france_storskaerm.webp" alt="Placholder Image 2" class="product-frame">
-                        </div>
-                        <div class="product-details">
-                            <h6>1 x billet</h6>
-                            <p><strong>Tor de France på storskærm</strong></p>
-                            <p>Lørdag d. 1. Juli kl. 14.00</p>
-                        </div>
-                    </div>
-                    <div class="price">145.00</div>
-                    <div class="quantity">
-                        <input type="number" value="0" min="0" class="quantity-field">
-                    </div>
-                    <div class="subtotal">0.00</div>
-                </div>
-                <div class="basket-product">
-                    <div class="item">
-                        <div class="product-image">
-                            <img src="images/lf_mesterskaber_maveplask.webp" alt="Placholder Image 2" class="product-frame">
-                        </div>
-                        <div class="product-details">
-                            <h6>1 x billet</h6>
-                            <p><strong>LF Mesterskaber i maveplask</strong></p>
-                            <p>Lørdag d. 14. Juli kl. 16.00</p>
-                        </div>
-                    </div>
-                    <div class="price">95.00</div>
-                    <div class="quantity">
-                        <input type="number" value="0" min="0" class="quantity-field">
-                    </div>
-                    <div class="subtotal">0.00</div>
-                </div>
-                <div class="basket-product">
-                    <div class="item">
-                        <div class="product-image">
-                            <img src="images/film_event_storskaem.webp" alt="Placholder Image 2" class="product-frame">
-                        </div>
-                        <div class="product-details">
-                            <h6>1 x billet</h6>
-                            <p><strong>Film Storskærm</strong></p>
-                            <p>Lørdag d. 5. August kl. 20.00</p>
-                        </div>
-                    </div>
-                    <div class="price">195.00</div>
-                    <div class="quantity">
-                        <input type="number" value="0" min="0" class="quantity-field">
-                    </div>
-                    <div class="subtotal">0.00</div>
-                </div>
+
+
+
 
             </div>
 
