@@ -1,8 +1,4 @@
-<a href="https://nyheder.tv2.dk/">
-    <div class="stopBillede">
-        <img src="images/nødstop.png" alt="Nødstop billede til at komme væk fra siden" class="img-fluid">
-    </div>
-</a>
+
 <div id="footer">
     <footer class="container-fluid text-white border-white border-top border-1 bg-farveBanner">
 
@@ -25,6 +21,22 @@
                     <p class="mb-0 ps-2">Hoskiærvej 1, 4900 Nakskov</p>
                 </div>
             </div>
+            <div class="col-12 col-lg-auto pt-1 pt-lg-0 d-lg-none">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img src="images/facebook.svg" alt="Mandekrisecenter Lollands Facebookside">
+                    <p class="mb-0 ps-2">Facebook</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-auto pt-1 pt-lg-0 d-lg-none">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img src="images/linkedin.svg" alt="Mandekrisecenter Lollands LinkedIn side">
+                    <p class="mb-0 ps-2">LinkedIn</p>
+                </div>
+            </div>
         </div>
     </footer>
 </div>
+
+<!-- Fixed bottom right button -->
+<div> <a href="https://nyheder.tv2.dk/" class="btn btn-secondary text-white ms-2 text-shadow-btn nødknap"><span class="fw-semibold overskrift">NØDKNAP</span><br> Væk fra siden</a></div>
+

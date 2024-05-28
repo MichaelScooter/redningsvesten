@@ -38,6 +38,7 @@ p{
 	margin-block-end: 0px;
 	font-family: montserrat, sans-serif;
 }
+
 /* Får at få logo i navbar til at kunne blive vist større */
 .navbar .container-fluid{
 	margin-top: -10px;
@@ -58,18 +59,27 @@ p{
 #logo{
 	content: url("../images/logo-mandekrisecenter.svg");
 	max-height: 80px;
-	width: 210px;
+	width: 175px;
 }
 
-.hovedContainer{
-	position: absolute;
+.flexBox {
+	background-image: url("../images/lolland-mandekrisecenter.webp");
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	min-height: 300px;
 
-}
+	h1{
+		font-size:1.125rem ;
+	}
 
-.heroImage{
-	position: relative;
-	left: 10px;
+	p{
+		font-size: 1.3rem;
+	}
 
+	.btn{
+		font-size: 0.8rem;
+	}
 }
 
 .checkmark {
@@ -77,6 +87,24 @@ p{
 	height: 15px;
 
 }
+
+.checkmarkText{
+	font-size:1rem;
+}
+
+/* Skygge på tekst i knapper */
+.text-shadow-btn {
+	text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
+}
+
+.ikonSider{
+	max-width: 30% !important;
+}
+
+.logoIkon{
+	max-width: 30% !important;
+}
+
 
 /* -- Testimonial billeder -- */
 img.rounded-circle{
@@ -93,7 +121,8 @@ img.rounded-circle{
 	border-style: solid;
 	border-color: #8abf2c;
 	border-bottom-width: 1px!important;
-	background-color: #f9f9f9;
+	border-top-width: 1px!important;
+	background-color: #fff;
 }
 
 .accordion-button:hover{
@@ -101,18 +130,26 @@ img.rounded-circle{
 	color: white;
 }
 
-.stopBillede {
+.nødknap {
 	position: fixed;
-	bottom: 15px;
-	right: 15px;
-	max-width: 125px;
+	bottom: 20px;
+	right: 20px;
+	background-color: #fe0000;
+	border-radius: 5px;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.6);
+
+	.overskrift{
+		font-size: 1.3rem;
+	}
+
+	p{
+		font-size: 0.7rem;
+	}
 
 }
 
-dialog {
-	border-color: #F4442E;
-	background-color: #FFF8F0;
-	font-family: montserrat, sans-serif;
+.galleriImage{
+	min-width:100%;
 }
 
 
@@ -130,13 +167,21 @@ dialog {
 	padding-left: 0px;
 }
 
+/* -- Kontakt siden -- */
+.kontaktIkon{
+	width: 50px ;
+}
+
+
+
+
 /* -- Start -Koden fra Codepen.io Tilmeldingssiden -- */
 
 img,
 .basket-module,
 .basket-labels,
 .basket-product {
-	width: 90%;
+	width: 100%;
 }
 
 input,
@@ -180,7 +225,7 @@ main {
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 1rem 0;
-	width: 960px;
+	max-width:650px;
 }
 
 main .pt-5 .summary {
@@ -196,7 +241,7 @@ aside {
 }
 
 .basket {
-	width: 70%;
+	width: 100%;
 }
 
 .basket-module {
@@ -231,7 +276,6 @@ label {
 .promo-code-cta {
 	border-radius: 4px;
 	font-size: 0.8rem;
-	margin-left: 0.625rem;
 	padding: 0.625rem;
 	font-family: montserrat;
 }
@@ -323,7 +367,7 @@ main aside .summary{
 aside {
 	float: right;
 	position: relative;
-	width: 30%;
+	width: 100%;
 }
 
 .summary {
@@ -431,7 +475,7 @@ aside {
 	.remove {
 		width: 100%;
 	}
-	.basket-labels {
+	.basket-labels .item-heading {
 		display: none;
 	}
 	.basket-module {
@@ -471,11 +515,16 @@ aside {
 		position: relative;
 	}
 
-	img,
+
 	.basket-module,
 	.basket-labels,
 	.basket-product {
-		width: 80%;
+		width: 100%;
+
+	}
+
+	img{
+		width: 70%;
 	}
 }
 
@@ -490,11 +539,12 @@ aside {
 
 @media screen and (max-width: 960px) {
 	main {
-		width: 100%;
+		max-width:650px;;
 	}
 	.product-details {
 		padding: 0 1rem;
 	}
+
 }
 
 
@@ -645,18 +695,92 @@ aside {
 
 
 /* -- Start - Michael @media --------------------------------------------- */
+@media screen and (min-width: 768px) {
+
+	.flexBox {
+		background-image: url("../images/lolland-mandekrisecenter.webp");
+		background-size: cover;
+		background-position: bottom;
+		background-repeat: no-repeat;
+		min-height: 500px;
+
+		h1 {
+			font-size: 1.7rem;
+		}
+
+		p {
+			font-size: 2.5rem;
+		}
+
+		.btn {
+			font-size: 1.1rem;
+		}
+	}
+}
 
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 992px) {
 
-	.stopBillede {
+	#logo{
+		min-height:90px;
+		width: 232px;
+	}
 
-		max-width: 100%;
+	.flexBox {
+		background-image: url("../images/mandekrisecenter-lolland.webp");
+		background-size: cover;
+		background-position: bottom;
+		background-repeat: no-repeat;
+		min-height: 700px;
+
+		h1{
+			font-size:2.5rem ;
+		}
+
+		p{
+			font-size: 3.3rem;
+		}
+
+		.btn{
+			font-size: 1rem;
+		}
+	}
+
+	.nødknap {
+		border-radius: 10px;
+		box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.8);
+
+		.overskrift{
+			font-size: 1.5rem;
+		}
+
+		p{
+			font-size: 1.3rem;
+		}
 
 	}
 
 
+	.kontaktIkon{
+		width: 100px ;
+	}
 
+	.kontaktIkon2{
+		width: 105px ;
+		padding-left: 28px!important;
+	}
+
+	.ikonSider{
+		max-width: 100% !important;
+	}
+
+	.logoIkon{
+		max-width: 100% !important;
+	}
+
+	.summary {
+		width: 100%;
+	}
 
 }
 

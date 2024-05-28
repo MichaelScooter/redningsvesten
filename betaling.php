@@ -13,12 +13,12 @@
 <?php include "include/navigation.php"; ?>
 
 <div class="container-fluid bg-farve3">
-    <div class="container py-5">
-        <div class="row pt-0 pt-lg-3 ">
-            <div class="d-flex justify-content-center" aria-label="breadcrumb">
+    <div class="container pt-5 pb-0">
+        <div class="row pt-0  ">
+            <div class="d-flex justify-content-center mt-5" aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="Tilmelding.php" class="text-primary">1. Køb billetter</a></li>
-                    <li class="breadcrumb-item active" aria-current="page"><span class="text-decoration-underline">2. Betaling</span></li>
+                    <li class="breadcrumb-item"><a href="tilmelding.php" class="text-farve5">1. Køb billetter</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"><span class="text-decoration-underline text-primary">2. Betaling</span></li>
                 </ol>
             </div>
             <div>
@@ -35,13 +35,13 @@
                             <p>Vi bruger krypteringsteknologi til at beskytte dine betalingsoplysninger. <br>Dermed at du sikret, at dine oplysninger ikke kan ses af andre end os. </p>
                             <p>Hvis du får brug for hjælp: <a href="kontakt.php">skriv</a> eller <a href="tel:+4540792019">ring</a> til os på 40 79 20 19</p>
                             <p class="text-primary pt-3 lead fw-medium">Billetter - Vælg forfra</p>
-                            <p class="pt-3">Hvis du ønsker at foretage ændringer i dit valg af billetter, så kan du gå tilbage ved at trykket på knappen: <a href="Tilmelding.php" class="text-black">"1. Køb billetter" øverst på denne side.</a> </p>
+                            <p class="pt-3">Hvis du ønsker at foretage ændringer i dit valg af billetter, så kan du gå tilbage ved at trykket på knappen: <a href="Tilmelding2.php" class="text-black">"1. Køb billetter" øverst på denne side.</a> </p>
                         </div>
                     </div>
 
                     <!-- Billede -->
                     <div class="col-lg-3 d-flex justify-content-center">
-                        <img src="images/billet.svg" alt="Mandekrisecenter Lollands svar på oftest stillede spørgsmål." class=" ps-lg-5 px-lg-3 w-100">
+                        <img src="images/card.svg" alt="Billede af betalings ikon på Mandekrisecenter Lollands betalingsside." class=" ps-lg-5 px-lg-3 w-100">
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@
 </div>
 <div class="container pb-5">
 
-    <div class="pt-4 betalingsSiden mx-lg-5">
+    <div class="pt-4 betalingsSiden mx-lg-5 pb-lg-5">
         <div class="card-body pt-5 pt-lg-0">
             <div class="d-flex justify-content-center">
                 <div class="row">

@@ -4,7 +4,7 @@ $url = end($path);
 ?>
 
 <!-- Navbar - Start -->
-<nav class="navbar navbar-expand-lg bg-white fixed-top shadow px-2 px-lg-0">
+<nav class="navbar navbar-expand-lg bg-white fixed-top shadow px-2">
     <div class="container-fluid px-lg-5">
 
         <a class="navbar-brand" href="index.php" id="logo">Mandekrisecenter</a>
@@ -12,7 +12,7 @@ $url = end($path);
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse pb-3 pb-lg-1" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                     <a class="nav-link " aria-current="page" href="index.php">Forside</a>
@@ -27,8 +27,8 @@ $url = end($path);
                     <a class="nav-link " href="OmOs.php">Om os</a>
                 </li>
             </ul>
-            <a href="events.php" class="btn btn-primary text-white ms-lg-2">Events</a>
-            <a href="kontakt.php" class="btn btn-secondary text-white ms-lg-2">Kontakt</a>
+            <a href="events.php" class="btn btn-primary text-white ms-lg-2 text-shadow-btn">Events</a>
+            <a href="kontakt.php" class="btn btn-secondary text-white ms-lg-2 text-shadow-btn">Kontakt</a>
         </div>
     </div>
 </nav>

@@ -91,7 +91,7 @@ $events = $db->sql("SELECT * FROM events");
                 <div class="basket-product">
                     <div class="item">
                         <div class="product-image">
-                            <img src="uploads/<?php echo $event->eventsIcon; ?>" alt="Placholder Image 2" class="product-frame">
+                            <img src="uploads/<?php echo $event->eventsIcon; ?>" alt="Billede ikon til beskrivelse af event fra Mandekrisecenter lolland" class="product-frame">
                         </div>
                         <div class="product-details">
                             <h6>1 x billet</h6>
@@ -144,6 +144,8 @@ $events = $db->sql("SELECT * FROM events");
 <?php include "include/footer.php"; ?>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/nyhedsbrev.js"></script>
+<script src="js/sikker.js"></script>
 
 <!-- Tilmeldingsside -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

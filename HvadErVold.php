@@ -2,8 +2,10 @@
 <html lang="da">
 <head>
 
-    <title>Mandekrisecenter - Hvad er vold?</title>
-    <meta name="description" content="Mandekrisecenter - Hvad er vold?">
+    <title>Vold mod mænd - Få hjælp på Mandekrisecenter Lolland</title>
+    <meta name="description" content="Vold mod mænd: Partnervold mod mænd - Hvad det indebærer og hvordan du kan søge hjælp." />
+
+    <link rel="canonical" href="https://mpportfolio/mandekrisecenter.dk/HvadErVold.php">
 
     <?php include "include/head.php"; ?>
 
@@ -17,28 +19,30 @@
     <div class="container py-5">
         <div class="row pt-2 pt-lg-5">
             <div>
-                <h2 class="text-farve5">Hvad er vold og udsættes jeg for det?</h2>
+                <h1 class="text-farve5">Vold mod mænd</h1>
                 <p class="lead">Hvert år bliver over 43.000 mænd udsat for både fysisk og psykisk vold.</p>
 
                 <hr>
 
                 <!-- Indledningstekst START -------------------------------------------------------------------------------------->
-                <div class="row p-0 pt-4">
+                <!-- Indledningstekst START -------------------------------------------------------------------------------------->
+                <div class="row p-0 pt-4 flex-lg-row-reverse">
+                    <!-- Billede -->
+                    <div class="col-lg-4 d-flex justify-content-center">
+                        <img src="images/vold.svg" alt="Et beskrivende billede af vold mod mænd - Få hjælp hos Mandekrisecenter Lolland" class="px-md-5  ps-lg-5 pe-lg-0 w-100 ikonSider ">
+                    </div>
                     <div class="col-lg-8">
-
                         <div class="pt-3 pt-lg-0 ">
-                            <p>Der eksisterer forskellige typer vold, som kan omfatte fysiske, seksuelle, psykiske, materielle og økonomiske former.Det er vigtigt at forstå, hvad vold indebærer, samt være opmærksom på symptomerne. Desværre kan vold ofte eskalere og ende i det, der almindeligvis omtales som voldsspiralen. </p>
+                            <p>Der eksisterer forskellige typer af partnervold mod mænd, som kan omfatte psykisk vold mod mænd og fysiske, seksuelle, materielle og økonomiske former.Det er vigtigt at forstå, hvad vold indebærer, samt være opmærksom på symptomerne. Desværre kan vold ofte eskalere og ende i det, der almindeligvis omtales som voldsspiralen. </p>
                             <p class="text-primary pt-3 lead fw-medium">Den negative Voldsspiral</p>
                             <p class="pt-3">I begyndelsen af processen er det vigtigt at reagere. Reaktionen kan variere og inkludere følelser som tristhed, frygt eller vrede, og det er helt i orden. Du kan have mange spørgsmål, som du søger svar på. At dele dine oplevelser gentagne gange kan være en måde at forsøge at forstå eller finde svar på dine spørgsmål. På den anden side kan du også blot have behov for stilhed og fred.</p>
-                            <p class="pt-3">Vi hjælpe dig med alle de praktiske spørgsmål og udfordringer, der opstår. Vi håndterer dem en ad gangen, og prioriterer det vigtigste først. Det kan indebære alt fra sygemelding, kontakt med jobcenteret, boligforhold, institutioner, økonomi, børn, samvær og meget mere.</p>
+                            <p class="pt-3">Vi hjælpe voldsramte mænd med alle de praktiske spørgsmål og udfordringer, der opstår. Vi håndterer dem en ad gangen, og prioriterer det vigtigste først. Det kan indebære alt fra sygemelding, kontakt med jobcenteret, boligforhold, institutioner, økonomi, børn, samvær og meget mere.</p>
                         </div>
                     </div>
 
-                    <!-- Billede -->
-                    <div class="col-lg-4 d-flex justify-content-center">
-                        <img src="images/vold.svg" alt="Mandekrisecenter svar på hvad vold er." class=" ps-lg-5 w-100">
-                    </div>
+
                 </div>
+
             </div>
         </div>
     </div>
@@ -46,40 +50,40 @@
 
 <!-- Testimonials ----------------------------------------------------------------------------------------------------->
 
-<div class="container-fluid bg-light py-5">
+<div class="container-fluid bg-light py-2 py-lg-5">
     <div class="row d-flex align-items-center text-center pt-5 p-lg-5 ">
         <div class="pb-5">
-            <h2 class="text-farve5">Fakta om vold</h2>
+            <h2 class="text-farve5">Partnervold mod mænd</h2>
             <h3 class="lead">Statistik fra <a href="https://danner.dk/wp-content/uploads/2024/03/Vold_og_overgreb_i_Danmark_2021_V2-1.pdf">"Vold og overgreb i Danmark 2021"</a> foretaget af Statens Institut for Folkesundhed</h3>
         </div>
     </div>
-    <div class=" px-lg-5 pb-5">
+    <div class=" px-lg-5 pb-1 pb-lg-5">
         <div class="px-lg-5">
             <div class="px-lg-5">
                 <div class="row px-lg-5 justify-content-center text-center">
-                    <div class="col-lg-4 mb-4 ">
+                    <div class="col-lg-4 mb-4 px-5 px-lg-0">
                         <div class="card card-shadow shadow-lg border-0 bg-white rounded-4 mx-3 ">
                             <!-- Indhold for det første kort -->
-                            <div class="card-body px-4 py-5">
-                                <p class="display-6 font-weight-light mb-3 pt-3">83.000</p>
+                            <div class="card-body px-lg-4 py-lg-5">
+                                <p class="display-6  mb-3 pt-3 text-primary">83.000</p>
                                 <p>Mænd udsat for psykisk eller <br>fysisk partnervold</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 mb-4 ">
+                    <div class="col-lg-4 mb-4 px-5 px-lg-0">
                         <div class="card card-shadow shadow-lg border-0 bg-white rounded-4 mx-3 ">
                             <!-- Indhold for det første kort -->
-                            <div class="card-body px-4 py-5">
-                                <p class="display-6 font-weight-light mb-3 pt-3">20.000</p>
+                            <div class="card-body px-lg-4 py-lg-5">
+                                <p class="display-6  mb-3 pt-3 text-primary">20.000</p>
                                 <p>Mænd udsat for psykisk <br>partnervold</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 mb-4 ">
+                    <div class="col-lg-4 mb-4 px-5 px-lg-0">
                         <div class="card card-shadow shadow-lg border-0 bg-white rounded-4 mx-3 ">
                             <!-- Indhold for det første kort -->
-                            <div class="card-body px-4 py-5">
-                                <p class="display-6 font-weight-light mb-3 pt-3">91%</p>
+                            <div class="card-body px-lg-4 py-lg-5">
+                                <p class="display-6 mb-3 pt-3 text-primary">91%</p>
                                 <p>Fysisk partnervold mod mænd <br>er foretaget af en kvinde</p>
                             </div>
                         </div>
@@ -92,7 +96,7 @@
 </div>
 
 <!-- According  ------------------------------------------------------------------------------------------------------->
-<div class="container-fluid bg-farve1 px-lg-5 py-lg-5">
+<div class="container-fluid bg-farve1 px-lg-5 py-5">
     <!-- According START -->
     <div class="row p-3 px-lg-5">
         <div class="accordion py-lg-5 col-lg-6 ps-lg-5" id="accordionMandekrisecenterVold">
@@ -229,15 +233,18 @@
     <div class="container py-5">
         <div class="row pt-2 pt-lg-5">
             <div>
-                <h2 class="text-farve5">Hvordan påvirkes et menneske over tid af voldens konsekvenser?</h2>
-                <p class="lead">At skjule smerten: Voldens psykologiske indvirkning</p>
+                <h2 class="text-farve5">Hvordan påvirkes voldsramte mænd?</h2>
+                <p class="lead">At skjule smerten: Voldens psykologiske og fysiske konsekvenser over tid</p>
 
                 <hr>
 
                 <!-- Indledningstekst START -------------------------------------------------------------------------------------->
-                <div class="row p-0 pt-4">
+                <div class="row p-0 pt-4 flex-lg-row-reverse">
+                    <!-- Billede -->
+                    <div class="col-lg-4 d-flex justify-content-center">
+                        <img src="images/konsekvens.svg" alt="Mandekrisecenter svar på konsekvenser af vold" class="px-md-5  ps-lg-5 pe-lg-0 w-100 ikonSider ">
+                    </div>
                     <div class="col-lg-8">
-
                         <div class="pt-3 pt-lg-0 ">
                             <p>Når man konstant og vedvarende udsættes for vold, udvikler man overlevelsesstrategier, hvor man ændrer sin adfærd for at minimere konfliktsituationer, der kan udløse vold.</p>
                             <p class="text-primary pt-3 lead fw-medium">Når vold ændrer vores adfærd og identitet</p>
@@ -245,14 +252,11 @@
                             <p class="pt-3">Langvarig vold fører ofte til eskalering af konflikter i hjemmet og isolering fra omverdenen. Offeret kan føle skam og undgå kontakt med andre. Voldens psykiske konsekvenser som angst, depression og PTSD kan være skjulte, men påvirker dybt. Sociale og økonomiske konsekvenser kan følge, og det er vigtigt at søge støtte. Evnen til at skelne mellem normalitet og vold forsvinder gradvist, og offeret tilpasser sig udøverens adfærd, hvilket kan undergrave selvværdet. At forlade volden kræver styrke. Ønsker du hjælp?</p>
                         </div>
                         <div class="justify-content-start d-flex pb-5 pt-3">
-                            <a href="kontakt.php" class="btn btn-secondary text-white">Kontakt</a>
+                            <a href="kontakt.php" class="btn btn-secondary text-white text-shadow-btn">Kontakt</a>
                         </div>
                     </div>
 
-                    <!-- Billede -->
-                    <div class="col-lg-4 d-flex justify-content-center">
-                        <img src="images/konsekvens.svg" alt="Mandekrisecenter svar på konsekvenser af vold" class=" ps-lg-5 w-100">
-                    </div>
+
                 </div>
             </div>
         </div>

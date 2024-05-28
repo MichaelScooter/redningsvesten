@@ -2,8 +2,10 @@
 <html lang="da">
 <head>
 
-    <title>Mandekrisecenter - Arrangementer</title>
-    <meta name="description" content="Mandekrisecenter Foredrag/Arrangementer">
+    <title>Hvad er et krisecenter ? - Oftest stillede spørgsmål</title>
+    <meta name="description" content="Få svar på dine spørgsmål om Krisecenter Lolland. Læs vores oftest stillede spørgsmål om, hvad et krisecenter er. Hvordan vi kan hjælpe og støtte dig." />
+    <link rel="canonical" href="https://mpportfolio/mandekrisecenter.dk/OftesStilledeSpørgsmål.php">
+
 
     <?php include "include/head.php"; ?>
 
@@ -17,17 +19,20 @@
     <div class="container py-5">
         <div class="row pt-2 pt-lg-5">
             <div>
-                <h2 class="text-farve5">Få svar på dine spørgsmål - Nemt & Hurtigt !</h2>
-                <p class="lead">Finder du ikke svar på dit spørgsmål, så <a href="kontakt.php">skriv</a> eller <a href="tel:+4540792019">ring</a> til os på 40 79 20 19</p>
+                <h1 class="text-farve5">Oftest stillede spørgsmål </h1>
+                <p class="lead">Finder du ikke svar her på siden, så <a href="kontakt.php">skriv</a> eller <a href="tel:+4540792019">ring</a> til os på 40 79 20 19</p>
 
                 <hr>
 
             <!-- Indledningstekst START -------------------------------------------------------------------------------------->
-            <div class="row p-0 pt-4">
+            <div class="row p-0 pt-4 flex-lg-row-reverse">
+                <!-- Billede -->
+                <div class="col-lg-4 d-flex justify-content-center">
+                    <img src="images/green-question.svg" alt="Mandekrisecenter Lollands svar på oftest stillede spørgsmål." class="px-md-5  ps-lg-5 pe-lg-0 w-100 ikonSider ">
+                </div>
                 <div class="col-lg-8">
-
                     <div class="pt-3 pt-lg-0 ">
-                        <p>Vi har her prøvet at besvare de oftest stillede spørgsmål, så du nemt og hurtigt kan få svar på dine spørgsmål og give dig den støtte, du har brug for på vores mandekrisecenter. Vores mål er at give dig klarhed og tryghed, så du kan føle dig godt tilpas ved at søge hjælp hos os.</p>
+                        <p>Vi har her prøvet at besvare de oftest stillede spørgsmål, såsom hvad er et krisecenter, så du nemt og hurtigt kan få svar på dine spørgsmål og give dig den støtte, du har brug for på vores mandekrisecenter. Vores mål er at give dig klarhed og tryghed, så du kan føle dig godt tilpas ved at søge hjælp hos os.</p>
                         <p class="text-primary pt-3 lead fw-medium">Få hjælp nu</p>
                         <p class="pt-3">Du har mulighed for at kontakte Mandekrisecenter Lolland enten telefonisk eller personligt og anonymt ved at besøge os på Hoskiærvej 1, 4900 Nakskov.</p>
                         <p class="pt-3">Du har også mulighed for at blive henvist til Mandekrisecenter Lolland gennem din sagsbehandler, politiet, lægen eller skadestuen. Hvis det er lettere for dig, kan du også bede en veninde eller et familiemedlem om at ringe på dine vegne først.</p>
@@ -35,17 +40,14 @@
                     </div>
                 </div>
 
-                <!-- Billede -->
-                <div class="col-lg-4 d-flex justify-content-center">
-                    <img src="images/green-question.svg" alt="Mandekrisecenter Lollands svar på oftest stillede spørgsmål." class=" ps-lg-5 w-100">
-                </div>
+
             </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="container-fluid bg-farve1 px-lg-5 pt-lg-5">
+<div class="container-fluid bg-light px-lg-5 py-2 py-lg-5">
     <!-- According START -->
     <div class="row p-3 px-lg-5">
         <div class="accordion py-lg-5 col-lg-6 ps-lg-5" id="accordionMandekrisecenter">
@@ -101,7 +103,7 @@
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingFour">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        Egen bolig
+                        Egen bolig på krisecenteret
                     </button>
                 </h2>
                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionMandekrisecenter">
@@ -117,7 +119,7 @@
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingFive">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                        Gruppeforløb
+                        Er der gruppeforløb på krisecenteret?
                     </button>
                 </h2>
                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionMandekrisecenter">
@@ -165,7 +167,7 @@
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingEight">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                        Hvad koster det at bo på Mandecentret?
+                        Hvad koster det at bo på Mandekrisecentret?
                     </button>
                 </h2>
                 <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionMandekrisecenter">
@@ -263,7 +265,7 @@
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingFourteen">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
-                        Skal jeg have børn for at bo på Mandekrisecentret?
+                        Skal jeg have børn for at bo på et Mandekrisecenter?
                     </button>
                 </h2>
                 <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen" data-bs-parent="#accordionMandekrisecenter2">
@@ -310,14 +312,29 @@
             </div>
         </div>
     </div>
-
-    <div class="justify-content-center d-flex pb-5">
-        <a href="kontakt.php" class="btn btn-secondary text-white">Kontakt</a>
-    </div>
 </div>
 
 
 
+<!-- Video sektion ---------------------------------------------------------------------------------------------------->
+<div class="container-fluid bg-farve1 pt-2 pt-lg-5 p-lg-5">
+    <div class="row d-flex align-items-center justify-content-center text-center pt-5 px-lg-5">
+        <div class="pb-5">
+            <h2 class="text-farve5">Inspirations videoer</h2>
+            <h2 class="lead">Mandekrisecenteret har valgt at sløre ansigterne på de mænd, der deler deres historier.</h2>
+        </div>
+        <div class="col-12 col-lg-4 py-3 px-4"><video controls poster="images/video1.webp" preload="none" class="w-100 border-1 border border-white"> <source src="video/Film1-720p.webm" type="video/mp4"> Your browser does not support the video tag.  </video> </div>
+        <div class="col-12 col-lg-4 py-3 px-4"><video controls poster="images/video2.webp" preload="none"  class="w-100 border-1 border border-white">  <source src="video/Film2-720p.webm" type="video/mp4"> Your browser does not support the video tag.  </video> </div>
+        <div class="col-12 col-lg-4 py-3 px-4"><video controls poster="images/video3.webp" preload="none"  class="w-100 border-1 border border-white">  <source src="video/Film3-720p.webm" type="video/mp4"> Your browser does not support the video tag.  </video> </div>
+
+    </div>
+
+    <div class="justify-content-center d-flex py-5">
+        <a href="events.php" class="btn btn-primary text-white ms-2 text-shadow-btn">Events</a>
+        <a href="kontakt.php" class="btn btn-secondary text-white ms-2 text-shadow-btn">Kontakt</a>
+    </div>
+
+</div>
 
 
 <!------------------------------------------------- Footer ------------------------------------------------------------>
